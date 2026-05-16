@@ -30,51 +30,62 @@ const store = useTestStore()
 
 const session = computed(() => store.currentSession)
 
-const chartData = computed(() => ({
-  labels: [
-    'Subtes 1', 
-    'Subtes 2', 
-    'Subtes 3', 
-    'Subtes 4', 
-    'Subtes 5', 
-    'Berhitung'
-  ],
-  datasets: [
-    {
-      label: 'Skor Anda',
-      backgroundColor: 'rgba(37, 99, 235, 0.2)',
-      borderColor: 'rgba(37, 99, 235, 1)',
-      pointBackgroundColor: 'rgba(37, 99, 235, 1)',
-      pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#fff',
-      pointHoverBorderColor: 'rgba(37, 99, 235, 1)',
-      data: [
-        session.value.scores.subtest1,
-        session.value.scores.subtest2,
-        session.value.scores.subtest3,
-        session.value.scores.subtest4,
-        session.value.scores.subtest5,
-        session.value.scores.subtest6
-      ]
-    }
-  ]
-}))
-
-const chartOptions = {
-  responsive: true,
-  maintainAspectRatio: false,
-  scales: {
-    r: {
-      angleLines: { display: true },
-      suggestedMin: 0,
-      suggestedMax: 100,
-      ticks: { stepSize: 20 }
-    }
-  },
-  plugins: {
-    legend: { display: false }
+const chartData = computed(() => {
+  const isDark = store.theme === 'dark'
+  const primaryColor = isDark ? 'rgba(96, 165, 250, 1)' : 'rgba(37, 99, 235, 1)'
+  const areaColor = isDark ? 'rgba(96, 165, 250, 0.2)' : 'rgba(37, 99, 235, 0.2)'
+  
+  return {
+    labels: ['Subtes 1', 'Subtes 2', 'Subtes 3', 'Subtes 4', 'Subtes 5', 'Berhitung'],
+    datasets: [
+      {
+        label: 'Skor Anda',
+        backgroundColor: areaColor,
+        borderColor: primaryColor,
+        pointBackgroundColor: primaryColor,
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: primaryColor,
+        data: [
+          session.value.scores.subtest1,
+          session.value.scores.subtest2,
+          session.value.scores.subtest3,
+          session.value.scores.subtest4,
+          session.value.scores.subtest5,
+          session.value.scores.subtest6
+        ]
+      }
+    ]
   }
-}
+})
+
+const chartOptions = computed(() => {
+  const isDark = store.theme === 'dark'
+  const textColor = isDark ? '#94a3b8' : '#64748b'
+  const gridColor = isDark ? '#334155' : '#e2e8f0'
+
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    scales: {
+      r: {
+        angleLines: { color: gridColor },
+        grid: { color: gridColor },
+        pointLabels: { color: textColor, font: { size: 12, weight: '600' } },
+        suggestedMin: 0,
+        suggestedMax: 100,
+        ticks: { 
+          stepSize: 20, 
+          backdropColor: 'transparent',
+          color: textColor
+        }
+      }
+    },
+    plugins: {
+      legend: { display: false }
+    }
+  }
+})
 
 const restart = () => {
   store.resetSession()

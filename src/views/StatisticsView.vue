@@ -32,14 +32,17 @@ const history = computed(() => store.history)
 
 const chartData = computed(() => {
   const sortedHistory = [...history.value].sort((a, b) => new Date(a.date) - new Date(b.date))
+  const isDark = store.theme === 'dark'
+  const primaryColor = isDark ? '#60a5fa' : '#2563eb'
+  const areaColor = isDark ? 'rgba(96, 165, 250, 0.1)' : 'rgba(37, 99, 235, 0.1)'
   
   return {
     labels: sortedHistory.map(h => new Date(h.date).toLocaleDateString('id-ID', { day: '2-digit', month: 'short' })),
     datasets: [
       {
         label: 'Total Skor',
-        borderColor: '#2563eb',
-        backgroundColor: 'rgba(37, 99, 235, 0.1)',
+        borderColor: primaryColor,
+        backgroundColor: areaColor,
         data: sortedHistory.map(h => h.totalScore),
         fill: true,
         tension: 0.4
@@ -48,16 +51,33 @@ const chartData = computed(() => {
   }
 })
 
-const chartOptions = {
-  responsive: true,
-  maintainAspectRatio: false,
-  scales: {
-    y: {
-      beginAtZero: true,
-      suggestedMax: 600
+const chartOptions = computed(() => {
+  const isDark = store.theme === 'dark'
+  const textColor = isDark ? '#94a3b8' : '#64748b'
+  const gridColor = isDark ? '#334155' : '#e2e8f0'
+
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    scales: {
+      y: {
+        beginAtZero: true,
+        suggestedMax: 600,
+        grid: { color: gridColor },
+        ticks: { color: textColor }
+      },
+      x: {
+        grid: { display: false },
+        ticks: { color: textColor }
+      }
+    },
+    plugins: {
+      legend: {
+        labels: { color: textColor }
+      }
     }
   }
-}
+})
 
 const clearHistory = () => {
   if (confirm('Apakah Anda yakin ingin menghapus semua riwayat statistik?')) {
@@ -130,7 +150,7 @@ const goHome = () => {
 }
 
 .btn-back:hover {
-  background: #f1f5f9;
+  background: var(--border);
   color: var(--primary);
 }
 
@@ -152,7 +172,7 @@ const goHome = () => {
 .btn-clear {
   background: none;
   border: none;
-  color: #94a3b8;
+  color: var(--text-muted);
   font-size: 0.875rem;
   cursor: pointer;
   display: flex;
@@ -165,7 +185,7 @@ const goHome = () => {
 
 .btn-clear:hover {
   color: var(--danger);
-  background: #fef2f2;
+  background: rgba(239, 68, 68, 0.1);
 }
 
 .empty-state {

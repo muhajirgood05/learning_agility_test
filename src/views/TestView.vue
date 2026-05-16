@@ -249,7 +249,7 @@ const formatTime = (seconds) => {
 }
 
 .question-item {
-  background: white;
+  background: var(--surface);
   padding: 2rem;
   border-radius: var(--radius);
   border: 1px solid var(--border);
@@ -340,7 +340,7 @@ const formatTime = (seconds) => {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  background: white;
+  background: var(--background);
   padding: 1.5rem;
   border-radius: var(--radius);
   border: 1px dashed var(--border);
@@ -378,7 +378,7 @@ const formatTime = (seconds) => {
 .seq-card {
   font-size: 1.5rem;
   font-weight: 700;
-  background: white;
+  background: var(--surface);
   border: 2px solid var(--border);
   border-radius: var(--radius);
   padding: 1rem 1.5rem;

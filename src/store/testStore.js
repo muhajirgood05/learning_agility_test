@@ -14,7 +14,8 @@ export const useTestStore = defineStore('test', {
       },
       totalScore: 0
     },
-    history: JSON.parse(localStorage.getItem('learning_agility_history') || '[]')
+    history: JSON.parse(localStorage.getItem('learning_agility_history') || '[]'),
+    theme: localStorage.getItem('theme') || 'light'
   }),
   actions: {
     setScore(subtestId, score) {
@@ -40,6 +41,14 @@ export const useTestStore = defineStore('test', {
         },
         totalScore: 0
       }
+    },
+    toggleTheme() {
+      this.theme = this.theme === 'light' ? 'dark' : 'light'
+      document.documentElement.setAttribute('data-theme', this.theme)
+      localStorage.setItem('theme', this.theme)
+    },
+    initTheme() {
+      document.documentElement.setAttribute('data-theme', this.theme)
     }
   }
 })
