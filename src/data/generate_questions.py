@@ -161,22 +161,28 @@ def generate_s4(n):
     return questions
 
 def generate_s5(n):
-    f_syms = ['F', 'ꟻ', 'Ⅎ']
-    r_syms = ['R', 'Я', 'ꓤ']
     questions = []
     for i in range(n):
-        syms = random.choice([f_syms, r_syms])
-        top = [random.choice(syms) for _ in range(3)]
+        char_type = random.choice(['F', 'R'])
+        # 8 variations: 4 rotations * 2 flip states
+        variations = []
+        for r in [0, 90, 180, 270]:
+            for f in [False, True]:
+                variations.append({"c": char_type, "r": r, "f": f})
+        
+        top = [random.choice(variations) for _ in range(3)]
         bottom = []
-        for _ in range(3):
+        for j in range(3):
             if random.random() < 0.5:
-                bottom.append(top[len(bottom)])
+                bottom.append(top[j].copy())
             else:
-                bottom.append(random.choice(syms))
+                # Pick a different variation
+                other = random.choice(variations)
+                bottom.append(other)
         
         matches = 0
         for j in range(3):
-            if top[j] == bottom[j]:
+            if top[j]['r'] == bottom[j]['r'] and top[j]['f'] == bottom[j]['f']:
                 matches += 1
                 
         questions.append({

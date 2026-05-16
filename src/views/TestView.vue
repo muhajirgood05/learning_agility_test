@@ -141,10 +141,16 @@ const formatTime = (seconds) => {
             <p class="question-text">Berapa banyak karakter di baris bawah yang merupakan pasangan karakter di baris atas?</p>
             <div class="matching-rows">
               <div class="row top-row">
-                <span v-for="(char, cIdx) in currentQuestion.topRow" :key="'t'+cIdx" class="char-box">{{ char }}</span>
+                <span v-for="(item, cIdx) in currentQuestion.topRow" :key="'t'+cIdx" class="char-box">
+                  <span v-if="typeof item === 'string'">{{ item }}</span>
+                  <span v-else :style="{ transform: `rotate(${item.r}deg) scaleX(${item.f ? -1 : 1})`, display: 'inline-block' }">{{ item.c }}</span>
+                </span>
               </div>
               <div class="row bottom-row">
-                <span v-for="(char, cIdx) in currentQuestion.bottomRow" :key="'b'+cIdx" class="char-box">{{ char }}</span>
+                <span v-for="(item, cIdx) in currentQuestion.bottomRow" :key="'b'+cIdx" class="char-box">
+                  <span v-if="typeof item === 'string'">{{ item }}</span>
+                  <span v-else :style="{ transform: `rotate(${item.r}deg) scaleX(${item.f ? -1 : 1})`, display: 'inline-block' }">{{ item.c }}</span>
+                </span>
               </div>
             </div>
           </div>
@@ -364,6 +370,10 @@ const formatTime = (seconds) => {
   font-size: 2rem;
   font-weight: 700;
   width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
