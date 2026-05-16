@@ -288,7 +288,7 @@ const formatTime = (seconds) => {
 .option-btn {
   padding: 1rem;
   border: 2px solid var(--border);
-  background: white;
+  background: var(--surface);
   border-radius: var(--radius);
   cursor: pointer;
   text-align: left;
@@ -299,7 +299,7 @@ const formatTime = (seconds) => {
 
 .option-btn:hover {
   border-color: var(--primary);
-  background: #f8fafc;
+  background: var(--border);
 }
 
 .option-btn.selected {
@@ -390,7 +390,7 @@ const formatTime = (seconds) => {
 
 .seq-card:hover {
   border-color: var(--primary);
-  background: #f8fafc;
+  background: var(--border);
   transform: translateY(-2px);
 }
 
