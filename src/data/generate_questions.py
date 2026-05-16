@@ -84,7 +84,6 @@ def generate_s3(n):
                 dist2 = random.randint(1, 4)
             
             char3 = string.ascii_uppercase[start_idx + dist1 + dist2]
-            seq = [char1, char2, char3]
             
             d1 = dist1
             d2 = dist2
@@ -93,9 +92,13 @@ def generate_s3(n):
         
         # Closest adjacent pair
         if d1 < d2:
-            ans_idx = 0 # first item is outermost in pair 0-1
+            ans_char = char1 # first item is outermost in pair 0-1
         else:
-            ans_idx = 2 # last item is outermost in pair 1-2
+            ans_char = char3 # last item is outermost in pair 1-2
+            
+        seq = [char1, char2, char3]
+        random.shuffle(seq)
+        ans_idx = seq.index(ans_char)
             
         questions.append({
             "id": 300 + i + 1,
@@ -131,16 +134,21 @@ def generate_s4(n):
                 s3 = s2 - dist2
             
             seq = [s1, s2, s3]
-            d1 = abs(s1 - s2)
-            d2 = abs(s2 - s3)
-            if d1 != d2 and all(0 <= x <= 30 for x in seq):
+            # Ensure s1, s2, s3 are conceptually sorted to determine distances correctly
+            sorted_seq = sorted(seq)
+            d1 = abs(sorted_seq[0] - sorted_seq[1])
+            d2 = abs(sorted_seq[1] - sorted_seq[2])
+            if d1 != d2 and all(0 <= x <= 30 for x in seq) and len(set(seq)) == 3:
                 break
         
         # Largest adjacent pair
         if d1 > d2:
-            ans_idx = 0 # first item is outermost in pair 0-1
+            ans_val = sorted_seq[0] # first item is outermost in pair 0-1
         else:
-            ans_idx = 2 # last item is outermost in pair 1-2
+            ans_val = sorted_seq[2] # last item is outermost in pair 1-2
+            
+        random.shuffle(seq)
+        ans_idx = seq.index(ans_val)
             
         questions.append({
             "id": 400 + i + 1,

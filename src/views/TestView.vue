@@ -14,7 +14,16 @@ const subtestId = computed(() => parseInt(route.params.id))
 const subtest = computed(() => SUBTESTS.find(s => s.id === subtestId.value))
 const questions = computed(() => QUESTIONS[subtestId.value] || [])
 
-const timeLeft = ref(60) // 60 seconds per subtest
+const SUBTEST_DURATIONS = {
+  1: 180, // 3 minutes
+  2: 240, // 4 minutes
+  3: 240, // 4 minutes
+  4: 240, // 4 minutes
+  5: 300, // 5 minutes
+  6: 420  // 7 minutes
+}
+
+const timeLeft = ref(0)
 let timerInterval = null
 
 // Navigation state
@@ -27,7 +36,7 @@ const userAnswers = ref({})
 
 const startTimer = () => {
   clearInterval(timerInterval)
-  timeLeft.value = 60 // Reset timer for each subtest
+  timeLeft.value = SUBTEST_DURATIONS[subtestId.value] || 60 // Set timer for specific subtest
   timerInterval = setInterval(() => {
     if (timeLeft.value > 0) {
       timeLeft.value--
