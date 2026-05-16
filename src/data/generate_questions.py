@@ -7,15 +7,15 @@ def generate_s1(n):
     for i in range(n):
         top = [random.choice(string.ascii_uppercase) for _ in range(4)]
         bottom = []
-        for _ in range(4):
+        for j in range(4):
             if random.random() < 0.4:
-                bottom.append(random.choice(top).lower())
+                bottom.append(top[j].lower())
             else:
                 bottom.append(random.choice(string.ascii_lowercase))
         
         matches = 0
-        for char in bottom:
-            if char.upper() in top:
+        for j in range(4):
+            if bottom[j].upper() == top[j].upper():
                 matches += 1
         
         questions.append({
