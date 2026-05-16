@@ -161,9 +161,11 @@ def generate_s4(n):
     return questions
 
 def generate_s5(n):
-    syms = ['F', 'ꟻ', 'Ⅎ', 'R', 'Я', 'ꓤ']
+    f_syms = ['F', 'ꟻ', 'Ⅎ']
+    r_syms = ['R', 'Я', 'ꓤ']
     questions = []
     for i in range(n):
+        syms = random.choice([f_syms, r_syms])
         top = [random.choice(syms) for _ in range(3)]
         bottom = []
         for _ in range(3):

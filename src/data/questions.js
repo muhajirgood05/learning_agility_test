@@ -4,16 +4,16 @@ export const QUESTIONS = {
       "id": 101,
       "type": "matching",
       "topRow": [
-        "H",
-        "I",
-        "Z",
-        "A"
+        "R",
+        "F",
+        "K",
+        "L"
       ],
       "bottomRow": [
-        "x",
+        "c",
+        "f",
         "r",
-        "z",
-        "d"
+        "m"
       ],
       "options": [
         "0",
@@ -28,88 +28,16 @@ export const QUESTIONS = {
       "id": 102,
       "type": "matching",
       "topRow": [
-        "P",
         "I",
-        "P",
-        "S"
-      ],
-      "bottomRow": [
-        "p",
-        "l",
-        "q",
-        "s"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 103,
-      "type": "matching",
-      "topRow": [
-        "M",
-        "Q",
-        "Q",
-        "I"
-      ],
-      "bottomRow": [
-        "l",
-        "q",
-        "q",
-        "a"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 104,
-      "type": "matching",
-      "topRow": [
-        "E",
-        "L",
-        "K",
-        "A"
-      ],
-      "bottomRow": [
-        "d",
-        "l",
-        "k",
-        "z"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 105,
-      "type": "matching",
-      "topRow": [
-        "T",
         "U",
-        "H",
-        "M"
+        "V",
+        "V"
       ],
       "bottomRow": [
+        "i",
+        "l",
         "d",
-        "r",
-        "h",
-        "c"
+        "k"
       ],
       "options": [
         "0",
@@ -121,91 +49,19 @@ export const QUESTIONS = {
       "answer": 1
     },
     {
-      "id": 106,
+      "id": 103,
       "type": "matching",
       "topRow": [
-        "U",
+        "T",
         "F",
-        "Q",
-        "C"
-      ],
-      "bottomRow": [
-        "i",
-        "n",
-        "q",
-        "c"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 107,
-      "type": "matching",
-      "topRow": [
-        "N",
-        "N",
-        "V",
-        "M"
-      ],
-      "bottomRow": [
-        "y",
-        "n",
-        "w",
-        "m"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 108,
-      "type": "matching",
-      "topRow": [
-        "Y",
-        "D",
-        "J",
-        "S"
-      ],
-      "bottomRow": [
-        "h",
-        "k",
-        "j",
-        "s"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 109,
-      "type": "matching",
-      "topRow": [
         "A",
-        "V",
-        "Y",
-        "T"
+        "X"
       ],
       "bottomRow": [
-        "g",
-        "v",
-        "y",
-        "t"
+        "t",
+        "f",
+        "t",
+        "x"
       ],
       "options": [
         "0",
@@ -217,19 +73,163 @@ export const QUESTIONS = {
       "answer": 3
     },
     {
+      "id": 104,
+      "type": "matching",
+      "topRow": [
+        "Y",
+        "Q",
+        "A",
+        "B"
+      ],
+      "bottomRow": [
+        "y",
+        "q",
+        "a",
+        "v"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 105,
+      "type": "matching",
+      "topRow": [
+        "Y",
+        "R",
+        "N",
+        "U"
+      ],
+      "bottomRow": [
+        "y",
+        "s",
+        "w",
+        "u"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 106,
+      "type": "matching",
+      "topRow": [
+        "Y",
+        "K",
+        "O",
+        "L"
+      ],
+      "bottomRow": [
+        "p",
+        "k",
+        "k",
+        "p"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 107,
+      "type": "matching",
+      "topRow": [
+        "H",
+        "G",
+        "P",
+        "S"
+      ],
+      "bottomRow": [
+        "h",
+        "g",
+        "b",
+        "s"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 108,
+      "type": "matching",
+      "topRow": [
+        "N",
+        "F",
+        "T",
+        "J"
+      ],
+      "bottomRow": [
+        "q",
+        "m",
+        "z",
+        "h"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 109,
+      "type": "matching",
+      "topRow": [
+        "B",
+        "M",
+        "S",
+        "A"
+      ],
+      "bottomRow": [
+        "j",
+        "u",
+        "h",
+        "a"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
       "id": 110,
       "type": "matching",
       "topRow": [
-        "K",
+        "C",
         "G",
-        "E",
-        "W"
+        "C",
+        "P"
       ],
       "bottomRow": [
-        "k",
-        "d",
-        "t",
-        "z"
+        "q",
+        "i",
+        "c",
+        "s"
       ],
       "options": [
         "0",
@@ -244,16 +244,16 @@ export const QUESTIONS = {
       "id": 111,
       "type": "matching",
       "topRow": [
-        "G",
-        "U",
         "J",
-        "E"
+        "V",
+        "H",
+        "J"
       ],
       "bottomRow": [
-        "u",
-        "c",
-        "j",
-        "g"
+        "a",
+        "v",
+        "h",
+        "l"
       ],
       "options": [
         "0",
@@ -262,22 +262,46 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 112,
       "type": "matching",
       "topRow": [
-        "S",
-        "D",
-        "M",
-        "P"
+        "X",
+        "T",
+        "J",
+        "H"
       ],
       "bottomRow": [
-        "s",
         "q",
-        "p",
-        "t"
+        "t",
+        "t",
+        "h"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 113,
+      "type": "matching",
+      "topRow": [
+        "M",
+        "D",
+        "D",
+        "T"
+      ],
+      "bottomRow": [
+        "e",
+        "d",
+        "e",
+        "d"
       ],
       "options": [
         "0",
@@ -289,18 +313,18 @@ export const QUESTIONS = {
       "answer": 1
     },
     {
-      "id": 113,
+      "id": 114,
       "type": "matching",
       "topRow": [
-        "S",
-        "F",
-        "G",
+        "N",
+        "Z",
+        "W",
         "X"
       ],
       "bottomRow": [
-        "s",
-        "f",
-        "e",
+        "n",
+        "z",
+        "p",
         "x"
       ],
       "options": [
@@ -313,43 +337,19 @@ export const QUESTIONS = {
       "answer": 3
     },
     {
-      "id": 114,
-      "type": "matching",
-      "topRow": [
-        "R",
-        "M",
-        "D",
-        "K"
-      ],
-      "bottomRow": [
-        "l",
-        "m",
-        "f",
-        "k"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
       "id": 115,
       "type": "matching",
       "topRow": [
-        "S",
-        "Q",
-        "X",
-        "G"
+        "H",
+        "P",
+        "A",
+        "F"
       ],
       "bottomRow": [
         "s",
-        "e",
-        "r",
-        "c"
+        "p",
+        "a",
+        "f"
       ],
       "options": [
         "0",
@@ -358,22 +358,22 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": 116,
       "type": "matching",
       "topRow": [
-        "K",
-        "A",
-        "F",
-        "T"
+        "T",
+        "S",
+        "S",
+        "P"
       ],
       "bottomRow": [
-        "r",
-        "j",
-        "f",
-        "t"
+        "e",
+        "s",
+        "s",
+        "r"
       ],
       "options": [
         "0",
@@ -388,16 +388,16 @@ export const QUESTIONS = {
       "id": 117,
       "type": "matching",
       "topRow": [
-        "G",
-        "I",
-        "P",
-        "P"
+        "H",
+        "E",
+        "N",
+        "O"
       ],
       "bottomRow": [
-        "g",
-        "i",
-        "v",
-        "j"
+        "h",
+        "a",
+        "n",
+        "o"
       ],
       "options": [
         "0",
@@ -406,21 +406,69 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": 118,
       "type": "matching",
       "topRow": [
-        "M",
-        "O",
-        "H",
+        "C",
+        "X",
+        "B",
+        "H"
+      ],
+      "bottomRow": [
+        "h",
+        "j",
+        "a",
+        "t"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 119,
+      "type": "matching",
+      "topRow": [
+        "K",
+        "R",
+        "S",
+        "V"
+      ],
+      "bottomRow": [
+        "k",
+        "w",
+        "s",
+        "v"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 120,
+      "type": "matching",
+      "topRow": [
+        "K",
+        "U",
+        "Z",
         "I"
       ],
       "bottomRow": [
-        "m",
-        "o",
-        "j",
+        "k",
+        "u",
+        "p",
         "i"
       ],
       "options": [
@@ -433,66 +481,90 @@ export const QUESTIONS = {
       "answer": 3
     },
     {
-      "id": 119,
-      "type": "matching",
-      "topRow": [
-        "L",
-        "S",
-        "P",
-        "I"
-      ],
-      "bottomRow": [
-        "l",
-        "i",
-        "z",
-        "k"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 120,
-      "type": "matching",
-      "topRow": [
-        "C",
-        "J",
-        "Z",
-        "C"
-      ],
-      "bottomRow": [
-        "c",
-        "v",
-        "g",
-        "r"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 1
-    },
-    {
       "id": 121,
       "type": "matching",
       "topRow": [
-        "R",
-        "V",
         "M",
-        "N"
+        "F",
+        "G",
+        "C"
+      ],
+      "bottomRow": [
+        "m",
+        "f",
+        "g",
+        "s"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 122,
+      "type": "matching",
+      "topRow": [
+        "R",
+        "R",
+        "M",
+        "V"
       ],
       "bottomRow": [
         "r",
-        "v",
-        "e",
+        "m",
+        "m",
+        "v"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 123,
+      "type": "matching",
+      "topRow": [
+        "G",
+        "B",
+        "O",
+        "T"
+      ],
+      "bottomRow": [
+        "g",
+        "d",
+        "i",
+        "t"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 124,
+      "type": "matching",
+      "topRow": [
+        "D",
+        "R",
+        "I",
+        "B"
+      ],
+      "bottomRow": [
+        "o",
+        "r",
+        "i",
         "b"
       ],
       "options": [
@@ -502,94 +574,22 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 2
-    },
-    {
-      "id": 122,
-      "type": "matching",
-      "topRow": [
-        "N",
-        "J",
-        "W",
-        "Y"
-      ],
-      "bottomRow": [
-        "l",
-        "n",
-        "w",
-        "y"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 123,
-      "type": "matching",
-      "topRow": [
-        "V",
-        "M",
-        "Y",
-        "T"
-      ],
-      "bottomRow": [
-        "r",
-        "e",
-        "y",
-        "a"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 124,
-      "type": "matching",
-      "topRow": [
-        "B",
-        "Q",
-        "T",
-        "Q"
-      ],
-      "bottomRow": [
-        "r",
-        "q",
-        "n",
-        "q"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": 125,
       "type": "matching",
       "topRow": [
-        "E",
-        "L",
-        "Q",
-        "X"
+        "T",
+        "T",
+        "Y",
+        "V"
       ],
       "bottomRow": [
-        "e",
-        "l",
-        "d",
-        "w"
+        "h",
+        "t",
+        "y",
+        "v"
       ],
       "options": [
         "0",
@@ -598,22 +598,22 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": 126,
       "type": "matching",
       "topRow": [
-        "T",
-        "O",
-        "K",
-        "T"
+        "N",
+        "J",
+        "C",
+        "E"
       ],
       "bottomRow": [
-        "t",
-        "o",
-        "k",
-        "v"
+        "n",
+        "h",
+        "c",
+        "e"
       ],
       "options": [
         "0",
@@ -628,16 +628,16 @@ export const QUESTIONS = {
       "id": 127,
       "type": "matching",
       "topRow": [
-        "M",
-        "S",
-        "O",
-        "P"
+        "T",
+        "X",
+        "E",
+        "Y"
       ],
       "bottomRow": [
-        "m",
-        "f",
-        "u",
-        "p"
+        "t",
+        "x",
+        "c",
+        "f"
       ],
       "options": [
         "0",
@@ -652,16 +652,16 @@ export const QUESTIONS = {
       "id": 128,
       "type": "matching",
       "topRow": [
-        "P",
+        "S",
+        "J",
         "Y",
-        "X",
-        "V"
+        "N"
       ],
       "bottomRow": [
-        "p",
-        "y",
         "x",
-        "c"
+        "j",
+        "y",
+        "a"
       ],
       "options": [
         "0",
@@ -670,22 +670,22 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": 129,
       "type": "matching",
       "topRow": [
-        "Y",
-        "H",
-        "Q",
-        "G"
+        "U",
+        "B",
+        "S",
+        "V"
       ],
       "bottomRow": [
-        "y",
-        "h",
-        "q",
-        "h"
+        "u",
+        "b",
+        "i",
+        "p"
       ],
       "options": [
         "0",
@@ -694,22 +694,22 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": 130,
       "type": "matching",
       "topRow": [
-        "D",
-        "V",
-        "H",
-        "J"
+        "S",
+        "B",
+        "Y",
+        "A"
       ],
       "bottomRow": [
-        "d",
-        "k",
-        "d",
-        "p"
+        "x",
+        "b",
+        "z",
+        "r"
       ],
       "options": [
         "0",
@@ -724,15 +724,15 @@ export const QUESTIONS = {
       "id": 131,
       "type": "matching",
       "topRow": [
-        "D",
-        "K",
-        "T",
-        "D"
+        "R",
+        "H",
+        "N",
+        "P"
       ],
       "bottomRow": [
-        "t",
-        "t",
-        "o",
+        "h",
+        "h",
+        "n",
         "p"
       ],
       "options": [
@@ -742,22 +742,22 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": 132,
       "type": "matching",
       "topRow": [
-        "H",
-        "R",
-        "Z",
-        "V"
+        "G",
+        "S",
+        "I",
+        "T"
       ],
       "bottomRow": [
-        "h",
         "g",
-        "z",
-        "v"
+        "s",
+        "i",
+        "i"
       ],
       "options": [
         "0",
@@ -772,135 +772,15 @@ export const QUESTIONS = {
       "id": 133,
       "type": "matching",
       "topRow": [
-        "L",
-        "K",
-        "F",
-        "M"
-      ],
-      "bottomRow": [
-        "x",
-        "l",
-        "f",
-        "m"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 134,
-      "type": "matching",
-      "topRow": [
-        "V",
         "C",
-        "Y",
-        "K"
-      ],
-      "bottomRow": [
-        "b",
-        "r",
-        "n",
-        "k"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 135,
-      "type": "matching",
-      "topRow": [
-        "D",
-        "N",
-        "D",
-        "N"
-      ],
-      "bottomRow": [
-        "f",
-        "n",
-        "d",
-        "n"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 136,
-      "type": "matching",
-      "topRow": [
-        "S",
-        "S",
-        "Z",
-        "G"
-      ],
-      "bottomRow": [
-        "s",
-        "k",
-        "u",
-        "r"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 137,
-      "type": "matching",
-      "topRow": [
         "T",
-        "A",
-        "V",
-        "P"
+        "F",
+        "X"
       ],
       "bottomRow": [
-        "t",
-        "a",
-        "b",
-        "p"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 138,
-      "type": "matching",
-      "topRow": [
-        "U",
-        "P",
-        "R",
-        "A"
-      ],
-      "bottomRow": [
-        "k",
-        "p",
-        "k",
+        "h",
+        "z",
+        "y",
         "x"
       ],
       "options": [
@@ -913,19 +793,139 @@ export const QUESTIONS = {
       "answer": 1
     },
     {
+      "id": 134,
+      "type": "matching",
+      "topRow": [
+        "D",
+        "D",
+        "B",
+        "O"
+      ],
+      "bottomRow": [
+        "d",
+        "b",
+        "b",
+        "o"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 135,
+      "type": "matching",
+      "topRow": [
+        "C",
+        "C",
+        "B",
+        "W"
+      ],
+      "bottomRow": [
+        "c",
+        "t",
+        "b",
+        "o"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 136,
+      "type": "matching",
+      "topRow": [
+        "C",
+        "G",
+        "C",
+        "W"
+      ],
+      "bottomRow": [
+        "s",
+        "b",
+        "o",
+        "c"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 137,
+      "type": "matching",
+      "topRow": [
+        "S",
+        "K",
+        "E",
+        "K"
+      ],
+      "bottomRow": [
+        "c",
+        "i",
+        "e",
+        "e"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 138,
+      "type": "matching",
+      "topRow": [
+        "H",
+        "V",
+        "Z",
+        "C"
+      ],
+      "bottomRow": [
+        "i",
+        "v",
+        "t",
+        "c"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
       "id": 139,
       "type": "matching",
       "topRow": [
-        "P",
+        "L",
         "W",
         "N",
-        "Z"
+        "X"
       ],
       "bottomRow": [
-        "b",
+        "u",
         "w",
-        "c",
-        "m"
+        "r",
+        "k"
       ],
       "options": [
         "0",
@@ -940,40 +940,16 @@ export const QUESTIONS = {
       "id": 140,
       "type": "matching",
       "topRow": [
-        "Z",
-        "P",
+        "U",
         "D",
-        "Y"
+        "N",
+        "S"
       ],
       "bottomRow": [
-        "l",
-        "p",
-        "t",
-        "w"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 141,
-      "type": "matching",
-      "topRow": [
-        "P",
-        "Y",
-        "M",
-        "K"
-      ],
-      "bottomRow": [
-        "e",
-        "y",
+        "u",
+        "s",
         "b",
-        "k"
+        "s"
       ],
       "options": [
         "0",
@@ -985,19 +961,43 @@ export const QUESTIONS = {
       "answer": 2
     },
     {
+      "id": 141,
+      "type": "matching",
+      "topRow": [
+        "E",
+        "E",
+        "X",
+        "S"
+      ],
+      "bottomRow": [
+        "y",
+        "s",
+        "x",
+        "l"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
       "id": 142,
       "type": "matching",
       "topRow": [
-        "U",
-        "V",
+        "Y",
         "I",
-        "V"
+        "E",
+        "P"
       ],
       "bottomRow": [
-        "w",
-        "r",
-        "m",
-        "h"
+        "d",
+        "q",
+        "x",
+        "x"
       ],
       "options": [
         "0",
@@ -1012,16 +1012,16 @@ export const QUESTIONS = {
       "id": 143,
       "type": "matching",
       "topRow": [
-        "C",
-        "P",
-        "M",
+        "A",
+        "U",
+        "T",
         "G"
       ],
       "bottomRow": [
-        "x",
-        "p",
-        "m",
-        "a"
+        "a",
+        "s",
+        "z",
+        "c"
       ],
       "options": [
         "0",
@@ -1030,45 +1030,21 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 144,
       "type": "matching",
       "topRow": [
-        "H",
-        "I",
-        "K",
-        "O"
+        "Q",
+        "R",
+        "A",
+        "L"
       ],
       "bottomRow": [
-        "t",
-        "w",
-        "k",
-        "o"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 145,
-      "type": "matching",
-      "topRow": [
-        "D",
-        "P",
-        "V",
-        "R"
-      ],
-      "bottomRow": [
-        "e",
-        "p",
-        "v",
+        "q",
+        "r",
+        "a",
         "i"
       ],
       "options": [
@@ -1078,22 +1054,46 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 2
+      "answer": 3
+    },
+    {
+      "id": 145,
+      "type": "matching",
+      "topRow": [
+        "V",
+        "R",
+        "N",
+        "H"
+      ],
+      "bottomRow": [
+        "h",
+        "b",
+        "l",
+        "r"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0
     },
     {
       "id": 146,
       "type": "matching",
       "topRow": [
+        "R",
         "S",
-        "I",
-        "Z",
-        "F"
+        "T",
+        "V"
       ],
       "bottomRow": [
-        "s",
-        "i",
-        "r",
-        "e"
+        "x",
+        "d",
+        "t",
+        "v"
       ],
       "options": [
         "0",
@@ -1108,16 +1108,16 @@ export const QUESTIONS = {
       "id": 147,
       "type": "matching",
       "topRow": [
-        "Z",
-        "J",
-        "S",
-        "T"
+        "V",
+        "F",
+        "Q",
+        "X"
       ],
       "bottomRow": [
-        "p",
-        "j",
-        "d",
-        "j"
+        "b",
+        "y",
+        "q",
+        "a"
       ],
       "options": [
         "0",
@@ -1132,134 +1132,14 @@ export const QUESTIONS = {
       "id": 148,
       "type": "matching",
       "topRow": [
-        "A",
-        "E",
-        "O",
-        "Q"
-      ],
-      "bottomRow": [
-        "c",
-        "x",
-        "p",
-        "y"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 149,
-      "type": "matching",
-      "topRow": [
+        "H",
         "G",
-        "T",
-        "P",
-        "F"
-      ],
-      "bottomRow": [
-        "g",
-        "t",
-        "p",
-        "f"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 4
-    },
-    {
-      "id": 150,
-      "type": "matching",
-      "topRow": [
-        "K",
-        "O",
-        "T",
-        "Z"
-      ],
-      "bottomRow": [
-        "i",
-        "m",
-        "j",
-        "x"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 151,
-      "type": "matching",
-      "topRow": [
-        "M",
-        "A",
-        "U",
-        "W"
-      ],
-      "bottomRow": [
-        "l",
-        "x",
-        "z",
-        "u"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 152,
-      "type": "matching",
-      "topRow": [
-        "S",
-        "Z",
-        "F",
-        "U"
-      ],
-      "bottomRow": [
-        "u",
-        "z",
-        "v",
-        "u"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 153,
-      "type": "matching",
-      "topRow": [
-        "F",
-        "S",
-        "W",
+        "R",
         "R"
       ],
       "bottomRow": [
-        "f",
-        "c",
+        "h",
+        "x",
         "u",
         "r"
       ],
@@ -1273,18 +1153,138 @@ export const QUESTIONS = {
       "answer": 2
     },
     {
+      "id": 149,
+      "type": "matching",
+      "topRow": [
+        "L",
+        "Y",
+        "S",
+        "Q"
+      ],
+      "bottomRow": [
+        "b",
+        "e",
+        "y",
+        "r"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 150,
+      "type": "matching",
+      "topRow": [
+        "P",
+        "U",
+        "Q",
+        "T"
+      ],
+      "bottomRow": [
+        "p",
+        "w",
+        "t",
+        "a"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 151,
+      "type": "matching",
+      "topRow": [
+        "Q",
+        "I",
+        "V",
+        "Q"
+      ],
+      "bottomRow": [
+        "q",
+        "p",
+        "v",
+        "f"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 152,
+      "type": "matching",
+      "topRow": [
+        "T",
+        "M",
+        "D",
+        "D"
+      ],
+      "bottomRow": [
+        "k",
+        "u",
+        "r",
+        "d"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 153,
+      "type": "matching",
+      "topRow": [
+        "Q",
+        "B",
+        "K",
+        "I"
+      ],
+      "bottomRow": [
+        "v",
+        "c",
+        "y",
+        "y"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
       "id": 154,
       "type": "matching",
       "topRow": [
-        "X",
-        "E",
-        "A",
+        "B",
+        "O",
+        "D",
         "U"
       ],
       "bottomRow": [
+        "v",
         "o",
-        "e",
-        "a",
+        "d",
         "u"
       ],
       "options": [
@@ -1300,16 +1300,16 @@ export const QUESTIONS = {
       "id": 155,
       "type": "matching",
       "topRow": [
-        "E",
-        "O",
-        "Z",
-        "H"
+        "F",
+        "B",
+        "C",
+        "T"
       ],
       "bottomRow": [
-        "e",
-        "o",
-        "l",
-        "h"
+        "m",
+        "b",
+        "s",
+        "t"
       ],
       "options": [
         "0",
@@ -1318,46 +1318,22 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": 156,
       "type": "matching",
       "topRow": [
-        "B",
-        "N",
-        "Y",
-        "N"
+        "K",
+        "Q",
+        "S",
+        "A"
       ],
       "bottomRow": [
-        "e",
-        "n",
-        "y",
-        "n"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 157,
-      "type": "matching",
-      "topRow": [
-        "V",
-        "W",
-        "Y",
-        "E"
-      ],
-      "bottomRow": [
-        "b",
-        "w",
-        "r",
-        "b"
+        "a",
+        "d",
+        "s",
+        "m"
       ],
       "options": [
         "0",
@@ -1369,19 +1345,19 @@ export const QUESTIONS = {
       "answer": 1
     },
     {
-      "id": 158,
+      "id": 157,
       "type": "matching",
       "topRow": [
-        "Y",
-        "Q",
-        "R",
-        "T"
+        "J",
+        "O",
+        "H",
+        "Z"
       ],
       "bottomRow": [
-        "y",
-        "q",
-        "r",
-        "t"
+        "s",
+        "t",
+        "l",
+        "h"
       ],
       "options": [
         "0",
@@ -1390,22 +1366,46 @@ export const QUESTIONS = {
         "3",
         "4"
       ],
-      "answer": 4
+      "answer": 0
+    },
+    {
+      "id": 158,
+      "type": "matching",
+      "topRow": [
+        "N",
+        "X",
+        "A",
+        "P"
+      ],
+      "bottomRow": [
+        "x",
+        "x",
+        "i",
+        "p"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2
     },
     {
       "id": 159,
       "type": "matching",
       "topRow": [
-        "Y",
-        "D",
-        "G",
-        "X"
+        "F",
+        "N",
+        "R",
+        "Z"
       ],
       "bottomRow": [
-        "y",
-        "d",
-        "i",
-        "a"
+        "f",
+        "t",
+        "r",
+        "b"
       ],
       "options": [
         "0",
@@ -1420,16 +1420,16 @@ export const QUESTIONS = {
       "id": 160,
       "type": "matching",
       "topRow": [
+        "G",
+        "B",
         "O",
-        "L",
-        "E",
-        "E"
+        "N"
       ],
       "bottomRow": [
-        "o",
-        "s",
-        "d",
-        "e"
+        "g",
+        "q",
+        "y",
+        "n"
       ],
       "options": [
         "0",
@@ -1445,120 +1445,120 @@ export const QUESTIONS = {
     {
       "id": 201,
       "type": "text",
-      "question": "Gita lebih tinggi daripada Budi\nBudi lebih tinggi daripada Andi\nSiapa yang paling pendek?",
+      "question": "Dedi lebih cepat daripada Caca\nAndi lebih lambat daripada Caca\nSiapa yang tercepat?",
       "options": [
-        "Gita",
-        "Budi",
+        "Dedi",
+        "Caca",
         "Andi"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 202,
       "type": "text",
-      "question": "Caca lebih cepat daripada Lia\nAndi lebih lambat daripada Lia\nSiapa yang tercepat?",
+      "question": "Eka lebih cepat daripada Andi\nDedi lebih lambat daripada Andi\nSiapa yang tercepat?",
       "options": [
-        "Caca",
-        "Lia",
-        "Andi"
+        "Eka",
+        "Andi",
+        "Dedi"
       ],
       "answer": 0
     },
     {
       "id": 203,
       "type": "text",
-      "question": "Caca lebih kuat daripada Fani\nCaca lebih lemah daripada Budi\nSiapa yang terkuat?",
+      "question": "Budi lebih cepat daripada Eka\nCaca lebih lambat daripada Eka\nSiapa yang tercepat?",
       "options": [
-        "Caca",
-        "Fani",
-        "Budi"
+        "Budi",
+        "Eka",
+        "Caca"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 204,
       "type": "text",
-      "question": "Gita lebih murah daripada Budi\nGita lebih mahal daripada Tia\nSiapa yang paling murah?",
+      "question": "Andi lebih tinggi daripada Lia\nLia lebih tinggi daripada Eka\nSiapa yang paling pendek?",
       "options": [
-        "Gita",
-        "Budi",
-        "Tia"
+        "Andi",
+        "Lia",
+        "Eka"
       ],
       "answer": 2
     },
     {
       "id": 205,
       "type": "text",
-      "question": "Eka lebih kuat daripada Gita\nEka lebih lemah daripada Lia\nSiapa yang terkuat?",
+      "question": "Dedi lebih tinggi daripada Yuli\nYuli lebih tinggi daripada Caca\nSiapa yang paling pendek?",
       "options": [
-        "Eka",
-        "Gita",
-        "Lia"
+        "Dedi",
+        "Yuli",
+        "Caca"
       ],
       "answer": 2
     },
     {
       "id": 206,
       "type": "text",
-      "question": "Fani lebih murah daripada Tia\nFani lebih mahal daripada Caca\nSiapa yang paling murah?",
+      "question": "Fani lebih tinggi daripada Tia\nTia lebih tinggi daripada Dedi\nSiapa yang paling pendek?",
       "options": [
         "Fani",
         "Tia",
-        "Caca"
+        "Dedi"
       ],
       "answer": 2
     },
     {
       "id": 207,
       "type": "text",
-      "question": "Andi lebih kuat daripada Caca\nAndi lebih lemah daripada Yuli\nSiapa yang terkuat?",
+      "question": "Lia lebih murah daripada Tia\nLia lebih mahal daripada Dedi\nSiapa yang paling murah?",
       "options": [
-        "Andi",
-        "Caca",
-        "Yuli"
+        "Lia",
+        "Tia",
+        "Dedi"
       ],
       "answer": 2
     },
     {
       "id": 208,
       "type": "text",
-      "question": "Eka lebih cepat daripada Dedi\nGita lebih lambat daripada Dedi\nSiapa yang tercepat?",
+      "question": "Andi lebih kuat daripada Eka\nAndi lebih lemah daripada Yuli\nSiapa yang terkuat?",
       "options": [
+        "Andi",
         "Eka",
-        "Dedi",
-        "Gita"
+        "Yuli"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 209,
       "type": "text",
-      "question": "Dedi lebih cepat daripada Lia\nAndi lebih lambat daripada Lia\nSiapa yang tercepat?",
+      "question": "Budi lebih cepat daripada Andi\nGita lebih lambat daripada Andi\nSiapa yang tercepat?",
       "options": [
-        "Dedi",
-        "Lia",
-        "Andi"
+        "Budi",
+        "Andi",
+        "Gita"
       ],
       "answer": 0
     },
     {
       "id": 210,
       "type": "text",
-      "question": "Budi lebih cepat daripada Lia\nGita lebih lambat daripada Lia\nSiapa yang tercepat?",
+      "question": "Eka lebih cepat daripada Gita\nBudi lebih lambat daripada Gita\nSiapa yang tercepat?",
       "options": [
-        "Budi",
-        "Lia",
-        "Gita"
+        "Eka",
+        "Gita",
+        "Budi"
       ],
       "answer": 0
     },
     {
       "id": 211,
       "type": "text",
-      "question": "Caca lebih murah daripada Tia\nCaca lebih mahal daripada Eka\nSiapa yang paling murah?",
+      "question": "Lia lebih kuat daripada Caca\nLia lebih lemah daripada Eka\nSiapa yang terkuat?",
       "options": [
+        "Lia",
         "Caca",
-        "Tia",
         "Eka"
       ],
       "answer": 2
@@ -1566,109 +1566,109 @@ export const QUESTIONS = {
     {
       "id": 212,
       "type": "text",
-      "question": "Eka lebih cepat daripada Budi\nYuli lebih lambat daripada Budi\nSiapa yang tercepat?",
+      "question": "Caca lebih kuat daripada Lia\nCaca lebih lemah daripada Fani\nSiapa yang terkuat?",
       "options": [
-        "Eka",
-        "Budi",
-        "Yuli"
+        "Caca",
+        "Lia",
+        "Fani"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 213,
       "type": "text",
-      "question": "Dedi lebih tinggi daripada Fani\nFani lebih tinggi daripada Eka\nSiapa yang paling pendek?",
+      "question": "Tia lebih kuat daripada Dedi\nTia lebih lemah daripada Budi\nSiapa yang terkuat?",
       "options": [
+        "Tia",
         "Dedi",
-        "Fani",
-        "Eka"
+        "Budi"
       ],
       "answer": 2
     },
     {
       "id": 214,
       "type": "text",
-      "question": "Caca lebih kuat daripada Gita\nCaca lebih lemah daripada Fani\nSiapa yang terkuat?",
+      "question": "Lia lebih murah daripada Budi\nLia lebih mahal daripada Caca\nSiapa yang paling murah?",
       "options": [
-        "Caca",
-        "Gita",
-        "Fani"
+        "Lia",
+        "Budi",
+        "Caca"
       ],
       "answer": 2
     },
     {
       "id": 215,
       "type": "text",
-      "question": "Budi lebih murah daripada Eka\nBudi lebih mahal daripada Andi\nSiapa yang paling murah?",
+      "question": "Fani lebih tinggi daripada Lia\nLia lebih tinggi daripada Gita\nSiapa yang paling pendek?",
       "options": [
-        "Budi",
-        "Eka",
-        "Andi"
+        "Fani",
+        "Lia",
+        "Gita"
       ],
       "answer": 2
     },
     {
       "id": 216,
       "type": "text",
-      "question": "Tia lebih kuat daripada Eka\nTia lebih lemah daripada Andi\nSiapa yang terkuat?",
+      "question": "Lia lebih tinggi daripada Fani\nFani lebih tinggi daripada Eka\nSiapa yang paling pendek?",
       "options": [
-        "Tia",
-        "Eka",
-        "Andi"
+        "Lia",
+        "Fani",
+        "Eka"
       ],
       "answer": 2
     },
     {
       "id": 217,
       "type": "text",
-      "question": "Yuli lebih tinggi daripada Dedi\nDedi lebih tinggi daripada Gita\nSiapa yang paling pendek?",
+      "question": "Tia lebih kuat daripada Caca\nTia lebih lemah daripada Fani\nSiapa yang terkuat?",
       "options": [
-        "Yuli",
-        "Dedi",
-        "Gita"
+        "Tia",
+        "Caca",
+        "Fani"
       ],
       "answer": 2
     },
     {
       "id": 218,
       "type": "text",
-      "question": "Eka lebih murah daripada Budi\nEka lebih mahal daripada Lia\nSiapa yang paling murah?",
+      "question": "Budi lebih cepat daripada Gita\nEka lebih lambat daripada Gita\nSiapa yang tercepat?",
       "options": [
-        "Eka",
         "Budi",
-        "Lia"
+        "Gita",
+        "Eka"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 219,
       "type": "text",
-      "question": "Lia lebih tinggi daripada Andi\nAndi lebih tinggi daripada Fani\nSiapa yang paling pendek?",
+      "question": "Andi lebih tinggi daripada Yuli\nYuli lebih tinggi daripada Caca\nSiapa yang paling pendek?",
       "options": [
-        "Lia",
         "Andi",
-        "Fani"
+        "Yuli",
+        "Caca"
       ],
       "answer": 2
     },
     {
       "id": 220,
       "type": "text",
-      "question": "Caca lebih kuat daripada Dedi\nCaca lebih lemah daripada Gita\nSiapa yang terkuat?",
+      "question": "Budi lebih tinggi daripada Caca\nCaca lebih tinggi daripada Yuli\nSiapa yang paling pendek?",
       "options": [
+        "Budi",
         "Caca",
-        "Dedi",
-        "Gita"
+        "Yuli"
       ],
       "answer": 2
     },
     {
       "id": 221,
       "type": "text",
-      "question": "Tia lebih tinggi daripada Caca\nCaca lebih tinggi daripada Budi\nSiapa yang paling pendek?",
+      "question": "Gita lebih tinggi daripada Fani\nFani lebih tinggi daripada Budi\nSiapa yang paling pendek?",
       "options": [
-        "Tia",
-        "Caca",
+        "Gita",
+        "Fani",
         "Budi"
       ],
       "answer": 2
@@ -1676,203 +1676,38 @@ export const QUESTIONS = {
     {
       "id": 222,
       "type": "text",
-      "question": "Dedi lebih kuat daripada Gita\nDedi lebih lemah daripada Yuli\nSiapa yang terkuat?",
+      "question": "Yuli lebih tinggi daripada Caca\nCaca lebih tinggi daripada Tia\nSiapa yang paling pendek?",
       "options": [
-        "Dedi",
-        "Gita",
-        "Yuli"
+        "Yuli",
+        "Caca",
+        "Tia"
       ],
       "answer": 2
     },
     {
       "id": 223,
       "type": "text",
-      "question": "Fani lebih tinggi daripada Dedi\nDedi lebih tinggi daripada Andi\nSiapa yang paling pendek?",
+      "question": "Andi lebih cepat daripada Fani\nEka lebih lambat daripada Fani\nSiapa yang tercepat?",
       "options": [
+        "Andi",
         "Fani",
-        "Dedi",
-        "Andi"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 224,
-      "type": "text",
-      "question": "Gita lebih cepat daripada Fani\nYuli lebih lambat daripada Fani\nSiapa yang tercepat?",
-      "options": [
-        "Gita",
-        "Fani",
-        "Yuli"
+        "Eka"
       ],
       "answer": 0
     },
     {
-      "id": 225,
+      "id": 224,
       "type": "text",
-      "question": "Dedi lebih tinggi daripada Yuli\nYuli lebih tinggi daripada Gita\nSiapa yang paling pendek?",
-      "options": [
-        "Dedi",
-        "Yuli",
-        "Gita"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 226,
-      "type": "text",
-      "question": "Gita lebih tinggi daripada Dedi\nDedi lebih tinggi daripada Andi\nSiapa yang paling pendek?",
-      "options": [
-        "Gita",
-        "Dedi",
-        "Andi"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 227,
-      "type": "text",
-      "question": "Dedi lebih murah daripada Eka\nDedi lebih mahal daripada Andi\nSiapa yang paling murah?",
-      "options": [
-        "Dedi",
-        "Eka",
-        "Andi"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 228,
-      "type": "text",
-      "question": "Fani lebih murah daripada Eka\nFani lebih mahal daripada Lia\nSiapa yang paling murah?",
-      "options": [
-        "Fani",
-        "Eka",
-        "Lia"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 229,
-      "type": "text",
-      "question": "Eka lebih murah daripada Tia\nEka lebih mahal daripada Yuli\nSiapa yang paling murah?",
-      "options": [
-        "Eka",
-        "Tia",
-        "Yuli"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 230,
-      "type": "text",
-      "question": "Caca lebih tinggi daripada Dedi\nDedi lebih tinggi daripada Tia\nSiapa yang paling pendek?",
-      "options": [
-        "Caca",
-        "Dedi",
-        "Tia"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 231,
-      "type": "text",
-      "question": "Caca lebih tinggi daripada Yuli\nYuli lebih tinggi daripada Budi\nSiapa yang paling pendek?",
-      "options": [
-        "Caca",
-        "Yuli",
-        "Budi"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 232,
-      "type": "text",
-      "question": "Yuli lebih tinggi daripada Caca\nCaca lebih tinggi daripada Andi\nSiapa yang paling pendek?",
-      "options": [
-        "Yuli",
-        "Caca",
-        "Andi"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 233,
-      "type": "text",
-      "question": "Budi lebih murah daripada Andi\nBudi lebih mahal daripada Caca\nSiapa yang paling murah?",
+      "question": "Budi lebih tinggi daripada Eka\nEka lebih tinggi daripada Caca\nSiapa yang paling pendek?",
       "options": [
         "Budi",
-        "Andi",
+        "Eka",
         "Caca"
       ],
       "answer": 2
     },
     {
-      "id": 234,
-      "type": "text",
-      "question": "Budi lebih tinggi daripada Yuli\nYuli lebih tinggi daripada Tia\nSiapa yang paling pendek?",
-      "options": [
-        "Budi",
-        "Yuli",
-        "Tia"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 235,
-      "type": "text",
-      "question": "Dedi lebih tinggi daripada Tia\nTia lebih tinggi daripada Lia\nSiapa yang paling pendek?",
-      "options": [
-        "Dedi",
-        "Tia",
-        "Lia"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 236,
-      "type": "text",
-      "question": "Yuli lebih tinggi daripada Dedi\nDedi lebih tinggi daripada Tia\nSiapa yang paling pendek?",
-      "options": [
-        "Yuli",
-        "Dedi",
-        "Tia"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 237,
-      "type": "text",
-      "question": "Yuli lebih tinggi daripada Lia\nLia lebih tinggi daripada Eka\nSiapa yang paling pendek?",
-      "options": [
-        "Yuli",
-        "Lia",
-        "Eka"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 238,
-      "type": "text",
-      "question": "Gita lebih tinggi daripada Caca\nCaca lebih tinggi daripada Tia\nSiapa yang paling pendek?",
-      "options": [
-        "Gita",
-        "Caca",
-        "Tia"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 239,
-      "type": "text",
-      "question": "Caca lebih kuat daripada Eka\nCaca lebih lemah daripada Tia\nSiapa yang terkuat?",
-      "options": [
-        "Caca",
-        "Eka",
-        "Tia"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 240,
+      "id": 225,
       "type": "text",
       "question": "Gita lebih murah daripada Caca\nGita lebih mahal daripada Yuli\nSiapa yang paling murah?",
       "options": [
@@ -1883,112 +1718,277 @@ export const QUESTIONS = {
       "answer": 2
     },
     {
-      "id": 241,
+      "id": 226,
       "type": "text",
-      "question": "Gita lebih cepat daripada Dedi\nCaca lebih lambat daripada Dedi\nSiapa yang tercepat?",
+      "question": "Caca lebih murah daripada Budi\nCaca lebih mahal daripada Eka\nSiapa yang paling murah?",
       "options": [
-        "Gita",
+        "Caca",
+        "Budi",
+        "Eka"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 227,
+      "type": "text",
+      "question": "Tia lebih murah daripada Fani\nTia lebih mahal daripada Eka\nSiapa yang paling murah?",
+      "options": [
+        "Tia",
+        "Fani",
+        "Eka"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 228,
+      "type": "text",
+      "question": "Yuli lebih kuat daripada Dedi\nYuli lebih lemah daripada Gita\nSiapa yang terkuat?",
+      "options": [
+        "Yuli",
         "Dedi",
+        "Gita"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 229,
+      "type": "text",
+      "question": "Eka lebih cepat daripada Andi\nGita lebih lambat daripada Andi\nSiapa yang tercepat?",
+      "options": [
+        "Eka",
+        "Andi",
+        "Gita"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 230,
+      "type": "text",
+      "question": "Andi lebih cepat daripada Tia\nCaca lebih lambat daripada Tia\nSiapa yang tercepat?",
+      "options": [
+        "Andi",
+        "Tia",
         "Caca"
       ],
       "answer": 0
     },
     {
-      "id": 242,
+      "id": 231,
       "type": "text",
-      "question": "Eka lebih kuat daripada Gita\nEka lebih lemah daripada Tia\nSiapa yang terkuat?",
+      "question": "Yuli lebih murah daripada Dedi\nYuli lebih mahal daripada Gita\nSiapa yang paling murah?",
+      "options": [
+        "Yuli",
+        "Dedi",
+        "Gita"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 232,
+      "type": "text",
+      "question": "Eka lebih murah daripada Gita\nEka lebih mahal daripada Andi\nSiapa yang paling murah?",
       "options": [
         "Eka",
         "Gita",
-        "Tia"
+        "Andi"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 233,
+      "type": "text",
+      "question": "Yuli lebih cepat daripada Lia\nCaca lebih lambat daripada Lia\nSiapa yang tercepat?",
+      "options": [
+        "Yuli",
+        "Lia",
+        "Caca"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 234,
+      "type": "text",
+      "question": "Fani lebih murah daripada Caca\nFani lebih mahal daripada Eka\nSiapa yang paling murah?",
+      "options": [
+        "Fani",
+        "Caca",
+        "Eka"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 235,
+      "type": "text",
+      "question": "Yuli lebih kuat daripada Gita\nYuli lebih lemah daripada Andi\nSiapa yang terkuat?",
+      "options": [
+        "Yuli",
+        "Gita",
+        "Andi"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 236,
+      "type": "text",
+      "question": "Dedi lebih cepat daripada Tia\nFani lebih lambat daripada Tia\nSiapa yang tercepat?",
+      "options": [
+        "Dedi",
+        "Tia",
+        "Fani"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 237,
+      "type": "text",
+      "question": "Eka lebih murah daripada Andi\nEka lebih mahal daripada Fani\nSiapa yang paling murah?",
+      "options": [
+        "Eka",
+        "Andi",
+        "Fani"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 238,
+      "type": "text",
+      "question": "Eka lebih tinggi daripada Fani\nFani lebih tinggi daripada Caca\nSiapa yang paling pendek?",
+      "options": [
+        "Eka",
+        "Fani",
+        "Caca"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 239,
+      "type": "text",
+      "question": "Yuli lebih kuat daripada Tia\nYuli lebih lemah daripada Caca\nSiapa yang terkuat?",
+      "options": [
+        "Yuli",
+        "Tia",
+        "Caca"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 240,
+      "type": "text",
+      "question": "Lia lebih cepat daripada Budi\nDedi lebih lambat daripada Budi\nSiapa yang tercepat?",
+      "options": [
+        "Lia",
+        "Budi",
+        "Dedi"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 241,
+      "type": "text",
+      "question": "Yuli lebih tinggi daripada Tia\nTia lebih tinggi daripada Caca\nSiapa yang paling pendek?",
+      "options": [
+        "Yuli",
+        "Tia",
+        "Caca"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 242,
+      "type": "text",
+      "question": "Andi lebih kuat daripada Tia\nAndi lebih lemah daripada Caca\nSiapa yang terkuat?",
+      "options": [
+        "Andi",
+        "Tia",
+        "Caca"
       ],
       "answer": 2
     },
     {
       "id": 243,
       "type": "text",
-      "question": "Dedi lebih cepat daripada Fani\nBudi lebih lambat daripada Fani\nSiapa yang tercepat?",
+      "question": "Fani lebih kuat daripada Dedi\nFani lebih lemah daripada Caca\nSiapa yang terkuat?",
       "options": [
-        "Dedi",
         "Fani",
-        "Budi"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 244,
-      "type": "text",
-      "question": "Caca lebih cepat daripada Andi\nLia lebih lambat daripada Andi\nSiapa yang tercepat?",
-      "options": [
-        "Caca",
-        "Andi",
-        "Lia"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 245,
-      "type": "text",
-      "question": "Gita lebih kuat daripada Budi\nGita lebih lemah daripada Caca\nSiapa yang terkuat?",
-      "options": [
-        "Gita",
-        "Budi",
+        "Dedi",
         "Caca"
       ],
       "answer": 2
     },
     {
-      "id": 246,
+      "id": 244,
       "type": "text",
-      "question": "Andi lebih kuat daripada Budi\nAndi lebih lemah daripada Yuli\nSiapa yang terkuat?",
+      "question": "Yuli lebih murah daripada Budi\nYuli lebih mahal daripada Eka\nSiapa yang paling murah?",
       "options": [
-        "Andi",
+        "Yuli",
+        "Budi",
+        "Eka"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 245,
+      "type": "text",
+      "question": "Dedi lebih tinggi daripada Budi\nBudi lebih tinggi daripada Yuli\nSiapa yang paling pendek?",
+      "options": [
+        "Dedi",
         "Budi",
         "Yuli"
       ],
       "answer": 2
     },
     {
+      "id": 246,
+      "type": "text",
+      "question": "Caca lebih murah daripada Budi\nCaca lebih mahal daripada Fani\nSiapa yang paling murah?",
+      "options": [
+        "Caca",
+        "Budi",
+        "Fani"
+      ],
+      "answer": 2
+    },
+    {
       "id": 247,
       "type": "text",
-      "question": "Gita lebih murah daripada Fani\nGita lebih mahal daripada Andi\nSiapa yang paling murah?",
+      "question": "Budi lebih murah daripada Yuli\nBudi lebih mahal daripada Eka\nSiapa yang paling murah?",
       "options": [
-        "Gita",
-        "Fani",
-        "Andi"
+        "Budi",
+        "Yuli",
+        "Eka"
       ],
       "answer": 2
     },
     {
       "id": 248,
       "type": "text",
-      "question": "Fani lebih cepat daripada Lia\nDedi lebih lambat daripada Lia\nSiapa yang tercepat?",
+      "question": "Dedi lebih murah daripada Lia\nDedi lebih mahal daripada Andi\nSiapa yang paling murah?",
       "options": [
-        "Fani",
+        "Dedi",
         "Lia",
-        "Dedi"
+        "Andi"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 249,
       "type": "text",
-      "question": "Yuli lebih cepat daripada Andi\nLia lebih lambat daripada Andi\nSiapa yang tercepat?",
+      "question": "Budi lebih cepat daripada Lia\nFani lebih lambat daripada Lia\nSiapa yang tercepat?",
       "options": [
-        "Yuli",
-        "Andi",
-        "Lia"
+        "Budi",
+        "Lia",
+        "Fani"
       ],
       "answer": 0
     },
     {
       "id": 250,
       "type": "text",
-      "question": "Lia lebih tinggi daripada Budi\nBudi lebih tinggi daripada Tia\nSiapa yang paling pendek?",
+      "question": "Caca lebih tinggi daripada Lia\nLia lebih tinggi daripada Yuli\nSiapa yang paling pendek?",
       "options": [
+        "Caca",
         "Lia",
-        "Budi",
-        "Tia"
+        "Yuli"
       ],
       "answer": 2
     }
@@ -1998,111 +1998,111 @@ export const QUESTIONS = {
       "id": 301,
       "type": "sequence",
       "sequence": [
-        "X",
-        "R",
-        "V"
+        "M",
+        "O",
+        "L"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "X",
-        "R",
-        "V"
+        "M",
+        "O",
+        "L"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 302,
       "type": "sequence",
       "sequence": [
         "G",
-        "J",
-        "L"
+        "E",
+        "J"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
         "G",
-        "J",
-        "L"
+        "E",
+        "J"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 303,
       "type": "sequence",
       "sequence": [
-        "I",
-        "M",
-        "N"
+        "C",
+        "A",
+        "G"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "I",
-        "M",
-        "N"
+        "C",
+        "A",
+        "G"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 304,
       "type": "sequence",
       "sequence": [
-        "E",
-        "D",
+        "F",
+        "B",
         "I"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "E",
-        "D",
+        "F",
+        "B",
         "I"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 305,
       "type": "sequence",
       "sequence": [
-        "H",
-        "B",
-        "D"
+        "Q",
+        "U",
+        "O"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "H",
-        "B",
-        "D"
+        "Q",
+        "U",
+        "O"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 306,
       "type": "sequence",
       "sequence": [
-        "P",
-        "M",
-        "I"
+        "D",
+        "H",
+        "C"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "P",
-        "M",
-        "I"
+        "D",
+        "H",
+        "C"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 307,
       "type": "sequence",
       "sequence": [
-        "L",
-        "N",
-        "Q"
+        "A",
+        "C",
+        "G"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "L",
-        "N",
-        "Q"
+        "A",
+        "C",
+        "G"
       ],
       "answer": 0
     },
@@ -2110,31 +2110,31 @@ export const QUESTIONS = {
       "id": 308,
       "type": "sequence",
       "sequence": [
-        "C",
+        "K",
         "F",
-        "H"
+        "G"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "C",
+        "K",
         "F",
-        "H"
+        "G"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 309,
       "type": "sequence",
       "sequence": [
-        "V",
-        "S",
-        "Q"
+        "M",
+        "I",
+        "H"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "V",
-        "S",
-        "Q"
+        "M",
+        "I",
+        "H"
       ],
       "answer": 2
     },
@@ -2142,31 +2142,31 @@ export const QUESTIONS = {
       "id": 310,
       "type": "sequence",
       "sequence": [
-        "D",
-        "E",
-        "A"
+        "M",
+        "O",
+        "L"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "D",
-        "E",
-        "A"
+        "M",
+        "O",
+        "L"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 311,
       "type": "sequence",
       "sequence": [
-        "S",
-        "R",
-        "O"
+        "G",
+        "F",
+        "D"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "S",
-        "R",
-        "O"
+        "G",
+        "F",
+        "D"
       ],
       "answer": 0
     },
@@ -2174,31 +2174,31 @@ export const QUESTIONS = {
       "id": 312,
       "type": "sequence",
       "sequence": [
-        "T",
-        "W",
-        "R"
+        "L",
+        "J",
+        "G"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "T",
-        "W",
-        "R"
+        "L",
+        "J",
+        "G"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 313,
       "type": "sequence",
       "sequence": [
         "O",
-        "H",
-        "L"
+        "U",
+        "Q"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
         "O",
-        "H",
-        "L"
+        "U",
+        "Q"
       ],
       "answer": 0
     },
@@ -2206,111 +2206,111 @@ export const QUESTIONS = {
       "id": 314,
       "type": "sequence",
       "sequence": [
-        "R",
-        "S",
-        "P"
+        "O",
+        "Q",
+        "U"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "R",
-        "S",
-        "P"
+        "O",
+        "Q",
+        "U"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 315,
       "type": "sequence",
       "sequence": [
-        "S",
         "M",
-        "Q"
+        "Q",
+        "P"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "S",
         "M",
-        "Q"
+        "Q",
+        "P"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 316,
       "type": "sequence",
       "sequence": [
-        "R",
-        "O",
-        "M"
+        "C",
+        "B",
+        "E"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "R",
-        "O",
-        "M"
+        "C",
+        "B",
+        "E"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 317,
       "type": "sequence",
       "sequence": [
-        "N",
-        "J",
-        "Q"
+        "L",
+        "G",
+        "J"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "N",
-        "J",
-        "Q"
+        "L",
+        "G",
+        "J"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 318,
       "type": "sequence",
       "sequence": [
-        "P",
-        "T",
-        "V"
+        "Q",
+        "L",
+        "O"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "P",
-        "T",
-        "V"
+        "Q",
+        "L",
+        "O"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 319,
       "type": "sequence",
       "sequence": [
-        "A",
-        "E",
-        "G"
+        "V",
+        "R",
+        "S"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "A",
-        "E",
-        "G"
+        "V",
+        "R",
+        "S"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 320,
       "type": "sequence",
       "sequence": [
-        "H",
         "K",
-        "M"
+        "O",
+        "H"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "H",
         "K",
-        "M"
+        "O",
+        "H"
       ],
       "answer": 2
     },
@@ -2318,111 +2318,111 @@ export const QUESTIONS = {
       "id": 321,
       "type": "sequence",
       "sequence": [
-        "K",
-        "J",
-        "M"
+        "P",
+        "L",
+        "Q"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "K",
-        "J",
-        "M"
+        "P",
+        "L",
+        "Q"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 322,
       "type": "sequence",
       "sequence": [
+        "L",
         "G",
-        "M",
-        "I"
+        "H"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
+        "L",
         "G",
-        "M",
-        "I"
+        "H"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 323,
       "type": "sequence",
       "sequence": [
+        "H",
         "F",
-        "I",
-        "D"
+        "B"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
+        "H",
         "F",
-        "I",
-        "D"
+        "B"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 324,
       "type": "sequence",
       "sequence": [
-        "A",
-        "D",
-        "B"
+        "V",
+        "W",
+        "R"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "A",
-        "D",
-        "B"
+        "V",
+        "W",
+        "R"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 325,
       "type": "sequence",
       "sequence": [
+        "J",
         "Q",
-        "P",
-        "L"
+        "N"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
+        "J",
         "Q",
-        "P",
-        "L"
+        "N"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 326,
       "type": "sequence",
       "sequence": [
-        "C",
-        "H",
-        "D"
+        "N",
+        "M",
+        "R"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "C",
-        "H",
-        "D"
+        "N",
+        "M",
+        "R"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 327,
       "type": "sequence",
       "sequence": [
-        "L",
-        "Q",
-        "P"
+        "U",
+        "N",
+        "Q"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "L",
-        "Q",
-        "P"
+        "U",
+        "N",
+        "Q"
       ],
       "answer": 1
     },
@@ -2430,30 +2430,30 @@ export const QUESTIONS = {
       "id": 328,
       "type": "sequence",
       "sequence": [
-        "I",
-        "H",
-        "L"
+        "K",
+        "N",
+        "I"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "I",
-        "H",
-        "L"
+        "K",
+        "N",
+        "I"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 329,
       "type": "sequence",
       "sequence": [
-        "U",
-        "R",
+        "P",
+        "K",
         "N"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "U",
-        "R",
+        "P",
+        "K",
         "N"
       ],
       "answer": 0
@@ -2462,31 +2462,31 @@ export const QUESTIONS = {
       "id": 330,
       "type": "sequence",
       "sequence": [
-        "O",
-        "S",
-        "P"
+        "L",
+        "H",
+        "O"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "O",
-        "S",
-        "P"
+        "L",
+        "H",
+        "O"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 331,
       "type": "sequence",
       "sequence": [
-        "S",
-        "M",
-        "O"
+        "Y",
+        "R",
+        "U"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "S",
-        "M",
-        "O"
+        "Y",
+        "R",
+        "U"
       ],
       "answer": 1
     },
@@ -2494,15 +2494,15 @@ export const QUESTIONS = {
       "id": 332,
       "type": "sequence",
       "sequence": [
-        "Q",
-        "T",
-        "S"
+        "K",
+        "H",
+        "I"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "Q",
-        "T",
-        "S"
+        "K",
+        "H",
+        "I"
       ],
       "answer": 1
     },
@@ -2510,127 +2510,127 @@ export const QUESTIONS = {
       "id": 333,
       "type": "sequence",
       "sequence": [
-        "S",
-        "Q",
-        "N"
+        "I",
+        "E",
+        "L"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "S",
-        "Q",
-        "N"
+        "I",
+        "E",
+        "L"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 334,
       "type": "sequence",
       "sequence": [
-        "N",
-        "L",
-        "Q"
+        "I",
+        "M",
+        "P"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "N",
-        "L",
-        "Q"
+        "I",
+        "M",
+        "P"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 335,
       "type": "sequence",
       "sequence": [
-        "H",
-        "I",
-        "E"
+        "N",
+        "M",
+        "K"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "H",
-        "I",
-        "E"
+        "N",
+        "M",
+        "K"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 336,
       "type": "sequence",
       "sequence": [
         "O",
-        "L",
+        "J",
         "M"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
         "O",
-        "L",
+        "J",
         "M"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 337,
       "type": "sequence",
       "sequence": [
-        "Q",
-        "U",
+        "O",
+        "L",
         "N"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "Q",
-        "U",
+        "O",
+        "L",
         "N"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 338,
       "type": "sequence",
       "sequence": [
-        "J",
-        "D",
-        "F"
+        "F",
+        "I",
+        "D"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "J",
-        "D",
-        "F"
+        "F",
+        "I",
+        "D"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 339,
       "type": "sequence",
       "sequence": [
         "O",
-        "M",
-        "R"
+        "S",
+        "U"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
         "O",
-        "M",
-        "R"
+        "S",
+        "U"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 340,
       "type": "sequence",
       "sequence": [
-        "H",
-        "E",
-        "L"
+        "Q",
+        "O",
+        "T"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "H",
-        "E",
-        "L"
+        "Q",
+        "O",
+        "T"
       ],
       "answer": 1
     },
@@ -2638,15 +2638,15 @@ export const QUESTIONS = {
       "id": 341,
       "type": "sequence",
       "sequence": [
-        "E",
-        "A",
-        "F"
+        "O",
+        "Q",
+        "R"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "E",
-        "A",
-        "F"
+        "O",
+        "Q",
+        "R"
       ],
       "answer": 2
     },
@@ -2654,15 +2654,15 @@ export const QUESTIONS = {
       "id": 342,
       "type": "sequence",
       "sequence": [
-        "V",
-        "Q",
-        "U"
+        "I",
+        "O",
+        "K"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "V",
-        "Q",
-        "U"
+        "I",
+        "O",
+        "K"
       ],
       "answer": 0
     },
@@ -2670,47 +2670,47 @@ export const QUESTIONS = {
       "id": 343,
       "type": "sequence",
       "sequence": [
-        "J",
-        "G",
-        "L"
+        "P",
+        "Q",
+        "S"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "J",
-        "G",
-        "L"
+        "P",
+        "Q",
+        "S"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 344,
       "type": "sequence",
       "sequence": [
-        "I",
-        "N",
-        "M"
+        "B",
+        "E",
+        "F"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "I",
-        "N",
-        "M"
+        "B",
+        "E",
+        "F"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 345,
       "type": "sequence",
       "sequence": [
-        "M",
-        "Q",
-        "R"
+        "H",
+        "K",
+        "L"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "M",
-        "Q",
-        "R"
+        "H",
+        "K",
+        "L"
       ],
       "answer": 2
     },
@@ -2718,63 +2718,63 @@ export const QUESTIONS = {
       "id": 346,
       "type": "sequence",
       "sequence": [
-        "I",
-        "N",
-        "K"
+        "Q",
+        "K",
+        "M"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "I",
-        "N",
-        "K"
+        "Q",
+        "K",
+        "M"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 347,
       "type": "sequence",
       "sequence": [
-        "M",
-        "O",
-        "J"
+        "G",
+        "I",
+        "F"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "M",
-        "O",
-        "J"
+        "G",
+        "I",
+        "F"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 348,
       "type": "sequence",
       "sequence": [
         "L",
-        "I",
-        "M"
+        "H",
+        "I"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
         "L",
-        "I",
-        "M"
+        "H",
+        "I"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 349,
       "type": "sequence",
       "sequence": [
-        "L",
-        "R",
-        "N"
+        "O",
+        "N",
+        "K"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "L",
-        "R",
-        "N"
+        "O",
+        "N",
+        "K"
       ],
       "answer": 0
     },
@@ -2782,15 +2782,15 @@ export const QUESTIONS = {
       "id": 350,
       "type": "sequence",
       "sequence": [
-        "F",
-        "C",
-        "G"
+        "E",
+        "I",
+        "B"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "F",
-        "C",
-        "G"
+        "E",
+        "I",
+        "B"
       ],
       "answer": 2
     },
@@ -2798,111 +2798,111 @@ export const QUESTIONS = {
       "id": 351,
       "type": "sequence",
       "sequence": [
-        "L",
-        "O",
-        "Q"
+        "K",
+        "H",
+        "D"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "L",
-        "O",
-        "Q"
+        "K",
+        "H",
+        "D"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 352,
       "type": "sequence",
       "sequence": [
-        "K",
-        "R",
-        "O"
+        "O",
+        "I",
+        "M"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "K",
-        "R",
-        "O"
+        "O",
+        "I",
+        "M"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 353,
       "type": "sequence",
       "sequence": [
-        "E",
-        "K",
-        "G"
+        "M",
+        "P",
+        "R"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "E",
-        "K",
-        "G"
+        "M",
+        "P",
+        "R"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 354,
       "type": "sequence",
       "sequence": [
-        "J",
         "N",
-        "Q"
+        "P",
+        "J"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "J",
         "N",
-        "Q"
+        "P",
+        "J"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 355,
       "type": "sequence",
       "sequence": [
-        "K",
-        "R",
-        "N"
+        "H",
+        "J",
+        "D"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "K",
-        "R",
-        "N"
+        "H",
+        "J",
+        "D"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 356,
       "type": "sequence",
       "sequence": [
-        "U",
-        "N",
-        "R"
+        "E",
+        "A",
+        "F"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "U",
-        "N",
-        "R"
+        "E",
+        "A",
+        "F"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 357,
       "type": "sequence",
       "sequence": [
-        "G",
-        "E",
-        "J"
+        "S",
+        "Q",
+        "V"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "G",
-        "E",
-        "J"
+        "S",
+        "Q",
+        "V"
       ],
       "answer": 1
     },
@@ -2910,15 +2910,15 @@ export const QUESTIONS = {
       "id": 358,
       "type": "sequence",
       "sequence": [
-        "Q",
-        "R",
-        "U"
+        "L",
+        "E",
+        "I"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "Q",
-        "R",
-        "U"
+        "L",
+        "E",
+        "I"
       ],
       "answer": 0
     },
@@ -2926,15 +2926,15 @@ export const QUESTIONS = {
       "id": 359,
       "type": "sequence",
       "sequence": [
-        "Q",
-        "N",
-        "J"
+        "W",
+        "U",
+        "R"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "Q",
-        "N",
-        "J"
+        "W",
+        "U",
+        "R"
       ],
       "answer": 0
     },
@@ -2942,111 +2942,111 @@ export const QUESTIONS = {
       "id": 360,
       "type": "sequence",
       "sequence": [
-        "R",
-        "Q",
-        "U"
+        "M",
+        "I",
+        "O"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "R",
-        "Q",
-        "U"
+        "M",
+        "I",
+        "O"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 361,
       "type": "sequence",
       "sequence": [
-        "F",
-        "K",
-        "I"
+        "W",
+        "S",
+        "R"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "F",
-        "K",
-        "I"
+        "W",
+        "S",
+        "R"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 362,
       "type": "sequence",
       "sequence": [
-        "P",
-        "L",
-        "I"
+        "S",
+        "R",
+        "W"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "P",
-        "L",
-        "I"
+        "S",
+        "R",
+        "W"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 363,
       "type": "sequence",
       "sequence": [
-        "K",
-        "O",
-        "I"
+        "J",
+        "H",
+        "N"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "K",
-        "O",
-        "I"
+        "J",
+        "H",
+        "N"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 364,
       "type": "sequence",
       "sequence": [
-        "D",
-        "E",
-        "A"
+        "X",
+        "V",
+        "R"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "D",
-        "E",
-        "A"
+        "X",
+        "V",
+        "R"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 365,
       "type": "sequence",
       "sequence": [
-        "M",
-        "H",
-        "J"
+        "P",
+        "L",
+        "R"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "M",
-        "H",
-        "J"
+        "P",
+        "L",
+        "R"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 366,
       "type": "sequence",
       "sequence": [
-        "R",
-        "L",
-        "P"
+        "P",
+        "T",
+        "Q"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "R",
-        "L",
-        "P"
+        "P",
+        "T",
+        "Q"
       ],
       "answer": 0
     },
@@ -3054,47 +3054,47 @@ export const QUESTIONS = {
       "id": 367,
       "type": "sequence",
       "sequence": [
-        "N",
-        "I",
-        "J"
+        "M",
+        "J",
+        "I"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "N",
-        "I",
-        "J"
+        "M",
+        "J",
+        "I"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 368,
       "type": "sequence",
       "sequence": [
-        "C",
-        "I",
-        "E"
+        "H",
+        "J",
+        "D"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "C",
-        "I",
-        "E"
+        "H",
+        "J",
+        "D"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 369,
       "type": "sequence",
       "sequence": [
-        "E",
-        "F",
-        "A"
+        "G",
+        "C",
+        "D"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "E",
-        "F",
-        "A"
+        "G",
+        "C",
+        "D"
       ],
       "answer": 1
     },
@@ -3102,47 +3102,47 @@ export const QUESTIONS = {
       "id": 370,
       "type": "sequence",
       "sequence": [
-        "L",
-        "O",
-        "N"
+        "H",
+        "K",
+        "O"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "L",
-        "O",
-        "N"
+        "H",
+        "K",
+        "O"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 371,
       "type": "sequence",
       "sequence": [
-        "S",
+        "P",
         "N",
-        "O"
+        "Q"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
-        "S",
+        "P",
         "N",
-        "O"
+        "Q"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 372,
       "type": "sequence",
       "sequence": [
         "M",
-        "J",
-        "K"
+        "I",
+        "J"
       ],
       "question": "Pilih satu huruf terluar yang merupakan bagian dari pasangan dengan jarak alfabet terdekat:",
       "options": [
         "M",
-        "J",
-        "K"
+        "I",
+        "J"
       ],
       "answer": 1
     }
@@ -3152,111 +3152,111 @@ export const QUESTIONS = {
       "id": 401,
       "type": "sequence",
       "sequence": [
-        8,
-        10,
-        4
+        19,
+        15,
+        13
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "8",
-        "10",
-        "4"
+        "19",
+        "15",
+        "13"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 402,
       "type": "sequence",
       "sequence": [
-        2,
-        6,
-        9
+        14,
+        11,
+        13
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "2",
-        "6",
-        "9"
+        "14",
+        "11",
+        "13"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 403,
       "type": "sequence",
       "sequence": [
-        9,
-        5,
-        8
+        19,
+        26,
+        23
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "9",
-        "5",
-        "8"
+        "19",
+        "26",
+        "23"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 404,
       "type": "sequence",
       "sequence": [
-        6,
+        7,
         1,
-        5
+        3
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "6",
+        "7",
         "1",
-        "5"
+        "3"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 405,
       "type": "sequence",
       "sequence": [
-        25,
-        29,
-        28
+        8,
+        5,
+        7
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "25",
-        "29",
-        "28"
+        "8",
+        "5",
+        "7"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 406,
       "type": "sequence",
       "sequence": [
-        22,
-        18,
-        21
+        28,
+        30,
+        25
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "22",
-        "18",
-        "21"
+        "28",
+        "30",
+        "25"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 407,
       "type": "sequence",
       "sequence": [
-        8,
-        1,
-        4
+        27,
+        24,
+        25
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "8",
-        "1",
-        "4"
+        "27",
+        "24",
+        "25"
       ],
       "answer": 0
     },
@@ -3264,31 +3264,31 @@ export const QUESTIONS = {
       "id": 408,
       "type": "sequence",
       "sequence": [
-        1,
-        7,
-        3
+        27,
+        29,
+        30
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "1",
-        "7",
-        "3"
+        "27",
+        "29",
+        "30"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 409,
       "type": "sequence",
       "sequence": [
-        5,
         4,
-        8
+        5,
+        2
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "5",
         "4",
-        "8"
+        "5",
+        "2"
       ],
       "answer": 2
     },
@@ -3296,31 +3296,31 @@ export const QUESTIONS = {
       "id": 410,
       "type": "sequence",
       "sequence": [
-        27,
         28,
-        24
+        24,
+        22
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "27",
         "28",
-        "24"
+        "24",
+        "22"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 411,
       "type": "sequence",
       "sequence": [
-        14,
-        10,
-        11
+        20,
+        17,
+        16
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "14",
-        "10",
-        "11"
+        "20",
+        "17",
+        "16"
       ],
       "answer": 0
     },
@@ -3328,63 +3328,63 @@ export const QUESTIONS = {
       "id": 412,
       "type": "sequence",
       "sequence": [
-        28,
-        24,
-        29
+        4,
+        3,
+        7
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "28",
-        "24",
-        "29"
+        "4",
+        "3",
+        "7"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 413,
       "type": "sequence",
       "sequence": [
-        20,
-        23,
-        22
+        15,
+        16,
+        13
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "20",
-        "23",
-        "22"
+        "15",
+        "16",
+        "13"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 414,
       "type": "sequence",
       "sequence": [
-        4,
-        2,
-        1
+        29,
+        30,
+        27
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "4",
-        "2",
-        "1"
+        "29",
+        "30",
+        "27"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 415,
       "type": "sequence",
       "sequence": [
-        0,
-        5,
-        2
+        14,
+        10,
+        16
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "0",
-        "5",
-        "2"
+        "14",
+        "10",
+        "16"
       ],
       "answer": 1
     },
@@ -3392,276 +3392,20 @@ export const QUESTIONS = {
       "id": 416,
       "type": "sequence",
       "sequence": [
-        7,
         4,
-        6
+        0,
+        5
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "7",
         "4",
-        "6"
+        "0",
+        "5"
       ],
       "answer": 1
     },
     {
       "id": 417,
-      "type": "sequence",
-      "sequence": [
-        6,
-        2,
-        7
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "6",
-        "2",
-        "7"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 418,
-      "type": "sequence",
-      "sequence": [
-        9,
-        5,
-        8
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "9",
-        "5",
-        "8"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 419,
-      "type": "sequence",
-      "sequence": [
-        20,
-        19,
-        23
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "20",
-        "19",
-        "23"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 420,
-      "type": "sequence",
-      "sequence": [
-        22,
-        15,
-        18
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "22",
-        "15",
-        "18"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 421,
-      "type": "sequence",
-      "sequence": [
-        30,
-        25,
-        27
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "30",
-        "25",
-        "27"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 422,
-      "type": "sequence",
-      "sequence": [
-        17,
-        20,
-        21
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "17",
-        "20",
-        "21"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 423,
-      "type": "sequence",
-      "sequence": [
-        24,
-        20,
-        26
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "24",
-        "20",
-        "26"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 424,
-      "type": "sequence",
-      "sequence": [
-        21,
-        16,
-        20
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "21",
-        "16",
-        "20"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 425,
-      "type": "sequence",
-      "sequence": [
-        9,
-        10,
-        6
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "9",
-        "10",
-        "6"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 426,
-      "type": "sequence",
-      "sequence": [
-        3,
-        0,
-        2
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "3",
-        "0",
-        "2"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 427,
-      "type": "sequence",
-      "sequence": [
-        5,
-        4,
-        2
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "5",
-        "4",
-        "2"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 428,
-      "type": "sequence",
-      "sequence": [
-        28,
-        27,
-        24
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "28",
-        "27",
-        "24"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 429,
-      "type": "sequence",
-      "sequence": [
-        2,
-        5,
-        6
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "2",
-        "5",
-        "6"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 430,
-      "type": "sequence",
-      "sequence": [
-        22,
-        19,
-        23
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "22",
-        "19",
-        "23"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 431,
-      "type": "sequence",
-      "sequence": [
-        15,
-        12,
-        8
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "15",
-        "12",
-        "8"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 432,
-      "type": "sequence",
-      "sequence": [
-        21,
-        25,
-        19
-      ],
-      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
-      "options": [
-        "21",
-        "25",
-        "19"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 433,
       "type": "sequence",
       "sequence": [
         11,
@@ -3677,18 +3421,274 @@ export const QUESTIONS = {
       "answer": 0
     },
     {
-      "id": 434,
+      "id": 418,
       "type": "sequence",
       "sequence": [
-        23,
-        28,
-        25
+        4,
+        7,
+        3
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "23",
+        "4",
+        "7",
+        "3"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 419,
+      "type": "sequence",
+      "sequence": [
+        20,
+        24,
+        27
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "20",
+        "24",
+        "27"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 420,
+      "type": "sequence",
+      "sequence": [
+        18,
+        24,
+        22
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "18",
+        "24",
+        "22"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 421,
+      "type": "sequence",
+      "sequence": [
+        1,
+        5,
+        4
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "1",
+        "5",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 422,
+      "type": "sequence",
+      "sequence": [
+        4,
+        11,
+        8
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "4",
+        "11",
+        "8"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 423,
+      "type": "sequence",
+      "sequence": [
+        27,
+        29,
+        30
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "27",
+        "29",
+        "30"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 424,
+      "type": "sequence",
+      "sequence": [
+        3,
+        0,
+        4
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "3",
+        "0",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 425,
+      "type": "sequence",
+      "sequence": [
+        21,
+        25,
+        26
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "21",
+        "25",
+        "26"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 426,
+      "type": "sequence",
+      "sequence": [
+        28,
+        25,
+        26
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
         "28",
-        "25"
+        "25",
+        "26"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 427,
+      "type": "sequence",
+      "sequence": [
+        1,
+        5,
+        0
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "1",
+        "5",
+        "0"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 428,
+      "type": "sequence",
+      "sequence": [
+        7,
+        9,
+        12
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "7",
+        "9",
+        "12"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 429,
+      "type": "sequence",
+      "sequence": [
+        30,
+        29,
+        27
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "30",
+        "29",
+        "27"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 430,
+      "type": "sequence",
+      "sequence": [
+        12,
+        11,
+        7
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "12",
+        "11",
+        "7"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 431,
+      "type": "sequence",
+      "sequence": [
+        6,
+        2,
+        7
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "6",
+        "2",
+        "7"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 432,
+      "type": "sequence",
+      "sequence": [
+        27,
+        23,
+        24
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "27",
+        "23",
+        "24"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 433,
+      "type": "sequence",
+      "sequence": [
+        10,
+        15,
+        13
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "10",
+        "15",
+        "13"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 434,
+      "type": "sequence",
+      "sequence": [
+        22,
+        19,
+        23
+      ],
+      "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
+      "options": [
+        "22",
+        "19",
+        "23"
       ],
       "answer": 1
     },
@@ -3696,15 +3696,15 @@ export const QUESTIONS = {
       "id": 435,
       "type": "sequence",
       "sequence": [
-        23,
-        29,
-        27
+        24,
+        28,
+        30
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "23",
-        "29",
-        "27"
+        "24",
+        "28",
+        "30"
       ],
       "answer": 0
     },
@@ -3712,175 +3712,175 @@ export const QUESTIONS = {
       "id": 436,
       "type": "sequence",
       "sequence": [
-        12,
+        11,
         9,
-        5
+        8
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "12",
+        "11",
         "9",
-        "5"
+        "8"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 437,
       "type": "sequence",
       "sequence": [
-        30,
-        27,
-        23
+        20,
+        17,
+        19
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "30",
-        "27",
-        "23"
+        "20",
+        "17",
+        "19"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 438,
       "type": "sequence",
       "sequence": [
-        1,
-        2,
-        5
+        7,
+        9,
+        6
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "1",
-        "2",
-        "5"
+        "7",
+        "9",
+        "6"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 439,
       "type": "sequence",
       "sequence": [
-        23,
-        19,
-        17
+        2,
+        0,
+        3
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "23",
-        "19",
-        "17"
+        "2",
+        "0",
+        "3"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 440,
       "type": "sequence",
       "sequence": [
-        5,
-        2,
+        1,
+        0,
         4
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "5",
-        "2",
+        "1",
+        "0",
         "4"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 441,
       "type": "sequence",
       "sequence": [
-        17,
-        20,
-        18
+        11,
+        12,
+        14
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "17",
-        "20",
-        "18"
+        "11",
+        "12",
+        "14"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 442,
       "type": "sequence",
       "sequence": [
-        29,
-        23,
-        27
+        14,
+        15,
+        11
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "29",
-        "23",
-        "27"
+        "14",
+        "15",
+        "11"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 443,
       "type": "sequence",
       "sequence": [
-        20,
-        19,
-        16
+        17,
+        21,
+        24
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "20",
-        "19",
-        "16"
+        "17",
+        "21",
+        "24"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 444,
       "type": "sequence",
       "sequence": [
-        14,
-        17,
-        13
+        22,
+        26,
+        27
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "14",
-        "17",
-        "13"
+        "22",
+        "26",
+        "27"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 445,
       "type": "sequence",
       "sequence": [
-        22,
-        24,
-        25
+        30,
+        25,
+        29
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "22",
-        "24",
-        "25"
+        "30",
+        "25",
+        "29"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 446,
       "type": "sequence",
       "sequence": [
-        25,
-        29,
-        26
+        21,
+        24,
+        22
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "25",
-        "29",
-        "26"
+        "21",
+        "24",
+        "22"
       ],
       "answer": 1
     },
@@ -3888,63 +3888,63 @@ export const QUESTIONS = {
       "id": 447,
       "type": "sequence",
       "sequence": [
-        30,
-        27,
-        29
+        25,
+        24,
+        21
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "30",
-        "27",
-        "29"
+        "25",
+        "24",
+        "21"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 448,
       "type": "sequence",
       "sequence": [
-        23,
-        26,
-        22
+        5,
+        9,
+        10
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "23",
-        "26",
-        "22"
+        "5",
+        "9",
+        "10"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 449,
       "type": "sequence",
       "sequence": [
-        14,
-        16,
-        17
+        12,
+        11,
+        15
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "14",
-        "16",
-        "17"
+        "12",
+        "11",
+        "15"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 450,
       "type": "sequence",
       "sequence": [
-        19,
-        21,
-        22
+        12,
+        14,
+        15
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "19",
-        "21",
-        "22"
+        "12",
+        "14",
+        "15"
       ],
       "answer": 0
     },
@@ -3952,31 +3952,31 @@ export const QUESTIONS = {
       "id": 451,
       "type": "sequence",
       "sequence": [
-        1,
-        5,
-        2
+        3,
+        4,
+        0
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "1",
-        "5",
-        "2"
+        "3",
+        "4",
+        "0"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 452,
       "type": "sequence",
       "sequence": [
-        14,
-        17,
-        15
+        16,
+        20,
+        14
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "14",
-        "17",
-        "15"
+        "16",
+        "20",
+        "14"
       ],
       "answer": 1
     },
@@ -3984,63 +3984,63 @@ export const QUESTIONS = {
       "id": 453,
       "type": "sequence",
       "sequence": [
-        26,
-        23,
+        30,
+        28,
         27
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "26",
-        "23",
+        "30",
+        "28",
         "27"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "id": 454,
       "type": "sequence",
       "sequence": [
         4,
-        3,
-        0
+        8,
+        7
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
         "4",
-        "3",
-        "0"
+        "8",
+        "7"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 455,
       "type": "sequence",
       "sequence": [
-        23,
-        19,
-        20
+        7,
+        10,
+        8
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "23",
-        "19",
-        "20"
+        "7",
+        "10",
+        "8"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 456,
       "type": "sequence",
       "sequence": [
-        18,
-        12,
-        14
+        10,
+        6,
+        7
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "18",
-        "12",
-        "14"
+        "10",
+        "6",
+        "7"
       ],
       "answer": 0
     },
@@ -4048,15 +4048,15 @@ export const QUESTIONS = {
       "id": 457,
       "type": "sequence",
       "sequence": [
-        22,
-        25,
-        18
+        11,
+        12,
+        14
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "22",
-        "25",
-        "18"
+        "11",
+        "12",
+        "14"
       ],
       "answer": 2
     },
@@ -4064,31 +4064,31 @@ export const QUESTIONS = {
       "id": 458,
       "type": "sequence",
       "sequence": [
-        0,
-        5,
-        3
+        19,
+        18,
+        21
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "0",
-        "5",
-        "3"
+        "19",
+        "18",
+        "21"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 459,
       "type": "sequence",
       "sequence": [
-        4,
-        2,
-        5
+        26,
+        24,
+        27
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "4",
-        "2",
-        "5"
+        "26",
+        "24",
+        "27"
       ],
       "answer": 1
     },
@@ -4096,17 +4096,17 @@ export const QUESTIONS = {
       "id": 460,
       "type": "sequence",
       "sequence": [
-        0,
-        2,
-        6
+        10,
+        12,
+        13
       ],
       "question": "Pilih satu angka terluar yang merupakan bagian dari pasangan (berdekatan) dengan selisih terbesar:",
       "options": [
-        "0",
-        "2",
-        "6"
+        "10",
+        "12",
+        "13"
       ],
-      "answer": 2
+      "answer": 0
     }
   ],
   "5": [
@@ -4114,14 +4114,14 @@ export const QUESTIONS = {
       "id": 501,
       "type": "matching",
       "topRow": [
-        "R",
-        "ꟻ",
-        "Я"
+        "Ⅎ",
+        "F",
+        "ꟻ"
       ],
       "bottomRow": [
-        "R",
         "F",
-        "Я"
+        "Ⅎ",
+        "F"
       ],
       "options": [
         "0",
@@ -4129,20 +4129,20 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 502,
       "type": "matching",
       "topRow": [
-        "Ⅎ",
-        "F",
+        "ꓤ",
+        "R",
         "Я"
       ],
       "bottomRow": [
-        "Ⅎ",
-        "Ⅎ",
-        "ꟻ"
+        "R",
+        "Я",
+        "Я"
       ],
       "options": [
         "0",
@@ -4156,14 +4156,14 @@ export const QUESTIONS = {
       "id": 503,
       "type": "matching",
       "topRow": [
-        "ꓤ",
-        "F",
-        "Я"
+        "ꟻ",
+        "ꟻ",
+        "Ⅎ"
       ],
       "bottomRow": [
-        "R",
-        "F",
-        "Я"
+        "ꟻ",
+        "ꟻ",
+        "Ⅎ"
       ],
       "options": [
         "0",
@@ -4171,39 +4171,18 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": 504,
       "type": "matching",
       "topRow": [
-        "Ⅎ",
-        "F",
-        "ꟻ"
-      ],
-      "bottomRow": [
-        "Ⅎ",
-        "F",
+        "Я",
+        "ꓤ",
         "ꓤ"
       ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 505,
-      "type": "matching",
-      "topRow": [
-        "Ⅎ",
-        "R",
-        "Ⅎ"
-      ],
       "bottomRow": [
-        "ꓤ",
+        "Я",
         "R",
         "R"
       ],
@@ -4216,17 +4195,38 @@ export const QUESTIONS = {
       "answer": 1
     },
     {
+      "id": 505,
+      "type": "matching",
+      "topRow": [
+        "ꓤ",
+        "R",
+        "Я"
+      ],
+      "bottomRow": [
+        "ꓤ",
+        "R",
+        "Я"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3
+    },
+    {
       "id": 506,
       "type": "matching",
       "topRow": [
-        "ꟻ",
-        "R",
-        "F"
+        "F",
+        "F",
+        "Ⅎ"
       ],
       "bottomRow": [
-        "ꟻ",
-        "R",
-        "F"
+        "F",
+        "F",
+        "Ⅎ"
       ],
       "options": [
         "0",
@@ -4240,14 +4240,14 @@ export const QUESTIONS = {
       "id": 507,
       "type": "matching",
       "topRow": [
-        "Ⅎ",
-        "ꓤ",
-        "ꓤ"
+        "ꟻ",
+        "ꟻ",
+        "F"
       ],
       "bottomRow": [
-        "Я",
-        "ꓤ",
-        "ꓤ"
+        "ꟻ",
+        "Ⅎ",
+        "F"
       ],
       "options": [
         "0",
@@ -4261,35 +4261,14 @@ export const QUESTIONS = {
       "id": 508,
       "type": "matching",
       "topRow": [
+        "ꟻ",
         "F",
-        "Ⅎ",
-        "Я"
+        "ꟻ"
       ],
       "bottomRow": [
-        "F",
         "Ⅎ",
-        "Я"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 509,
-      "type": "matching",
-      "topRow": [
-        "Я",
-        "Я",
-        "ꓤ"
-      ],
-      "bottomRow": [
-        "Я",
         "F",
-        "R"
+        "F"
       ],
       "options": [
         "0",
@@ -4300,17 +4279,38 @@ export const QUESTIONS = {
       "answer": 1
     },
     {
+      "id": 509,
+      "type": "matching",
+      "topRow": [
+        "ꟻ",
+        "ꟻ",
+        "Ⅎ"
+      ],
+      "bottomRow": [
+        "ꟻ",
+        "F",
+        "Ⅎ"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2
+    },
+    {
       "id": 510,
       "type": "matching",
       "topRow": [
         "Ⅎ",
         "Ⅎ",
-        "Я"
+        "F"
       ],
       "bottomRow": [
         "Ⅎ",
         "Ⅎ",
-        "Я"
+        "F"
       ],
       "options": [
         "0",
@@ -4325,12 +4325,75 @@ export const QUESTIONS = {
       "type": "matching",
       "topRow": [
         "R",
+        "R",
+        "Я"
+      ],
+      "bottomRow": [
+        "R",
+        "R",
+        "Я"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 512,
+      "type": "matching",
+      "topRow": [
+        "Я",
+        "Я",
+        "ꓤ"
+      ],
+      "bottomRow": [
+        "Я",
+        "Я",
+        "ꓤ"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 513,
+      "type": "matching",
+      "topRow": [
+        "Ⅎ",
+        "F",
+        "ꟻ"
+      ],
+      "bottomRow": [
+        "Ⅎ",
+        "F",
+        "ꟻ"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 514,
+      "type": "matching",
+      "topRow": [
+        "ꟻ",
         "F",
         "Ⅎ"
       ],
       "bottomRow": [
-        "R",
-        "Я",
+        "F",
+        "F",
         "Ⅎ"
       ],
       "options": [
@@ -4342,17 +4405,17 @@ export const QUESTIONS = {
       "answer": 2
     },
     {
-      "id": 512,
+      "id": 515,
       "type": "matching",
       "topRow": [
-        "F",
-        "Ⅎ",
-        "ꓤ"
+        "R",
+        "R",
+        "Я"
       ],
       "bottomRow": [
-        "ꟻ",
-        "F",
-        "ꓤ"
+        "ꓤ",
+        "R",
+        "R"
       ],
       "options": [
         "0",
@@ -4363,80 +4426,17 @@ export const QUESTIONS = {
       "answer": 1
     },
     {
-      "id": 513,
-      "type": "matching",
-      "topRow": [
-        "ꓤ",
-        "Я",
-        "Ⅎ"
-      ],
-      "bottomRow": [
-        "Я",
-        "Я",
-        "Ⅎ"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 514,
-      "type": "matching",
-      "topRow": [
-        "Ⅎ",
-        "R",
-        "Я"
-      ],
-      "bottomRow": [
-        "ꓤ",
-        "F",
-        "ꓤ"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 515,
-      "type": "matching",
-      "topRow": [
-        "ꟻ",
-        "ꓤ",
-        "ꓤ"
-      ],
-      "bottomRow": [
-        "ꟻ",
-        "Ⅎ",
-        "ꓤ"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 2
-    },
-    {
       "id": 516,
       "type": "matching",
       "topRow": [
-        "ꓤ",
-        "Я",
-        "Я"
+        "F",
+        "Ⅎ",
+        "F"
       ],
       "bottomRow": [
-        "Ⅎ",
-        "Я",
-        "Ⅎ"
+        "ꟻ",
+        "ꟻ",
+        "F"
       ],
       "options": [
         "0",
@@ -4451,13 +4451,13 @@ export const QUESTIONS = {
       "type": "matching",
       "topRow": [
         "ꟻ",
-        "ꓤ",
-        "F"
+        "Ⅎ",
+        "Ⅎ"
       ],
       "bottomRow": [
-        "ꓤ",
-        "F",
-        "ꟻ"
+        "ꟻ",
+        "Ⅎ",
+        "Ⅎ"
       ],
       "options": [
         "0",
@@ -4465,20 +4465,20 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "id": 518,
       "type": "matching",
       "topRow": [
-        "ꓤ",
-        "R",
-        "ꓤ"
+        "Ⅎ",
+        "ꟻ",
+        "F"
       ],
       "bottomRow": [
         "F",
-        "ꓤ",
-        "R"
+        "ꟻ",
+        "F"
       ],
       "options": [
         "0",
@@ -4486,20 +4486,20 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 519,
       "type": "matching",
       "topRow": [
-        "ꟻ",
         "Я",
-        "Ⅎ"
+        "Я",
+        "ꓤ"
       ],
       "bottomRow": [
-        "ꟻ",
-        "ꟻ",
-        "Ⅎ"
+        "Я",
+        "Я",
+        "R"
       ],
       "options": [
         "0",
@@ -4513,14 +4513,14 @@ export const QUESTIONS = {
       "id": 520,
       "type": "matching",
       "topRow": [
-        "Ⅎ",
-        "ꓤ",
-        "Я"
+        "ꟻ",
+        "F",
+        "Ⅎ"
       ],
       "bottomRow": [
-        "Ⅎ",
-        "ꓤ",
-        "F"
+        "ꟻ",
+        "F",
+        "ꟻ"
       ],
       "options": [
         "0",
@@ -4534,14 +4534,14 @@ export const QUESTIONS = {
       "id": 521,
       "type": "matching",
       "topRow": [
-        "ꓤ",
-        "ꓤ",
+        "Я",
+        "R",
         "Я"
       ],
       "bottomRow": [
-        "ꓤ",
-        "ꟻ",
-        "Я"
+        "Я",
+        "Я",
+        "R"
       ],
       "options": [
         "0",
@@ -4549,62 +4549,20 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 522,
       "type": "matching",
       "topRow": [
-        "Я",
-        "F",
-        "F"
-      ],
-      "bottomRow": [
-        "Я",
-        "F",
-        "F"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 523,
-      "type": "matching",
-      "topRow": [
-        "ꟻ",
-        "ꟻ",
-        "Ⅎ"
-      ],
-      "bottomRow": [
-        "ꟻ",
-        "ꟻ",
-        "Ⅎ"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 524,
-      "type": "matching",
-      "topRow": [
-        "Ⅎ",
-        "Я",
-        "Ⅎ"
+        "R",
+        "ꓤ",
+        "R"
       ],
       "bottomRow": [
         "R",
-        "Я",
-        "Ⅎ"
+        "R",
+        "R"
       ],
       "options": [
         "0",
@@ -4615,17 +4573,59 @@ export const QUESTIONS = {
       "answer": 2
     },
     {
-      "id": 525,
+      "id": 523,
+      "type": "matching",
+      "topRow": [
+        "F",
+        "ꟻ",
+        "F"
+      ],
+      "bottomRow": [
+        "ꟻ",
+        "ꟻ",
+        "F"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 524,
       "type": "matching",
       "topRow": [
         "ꓤ",
+        "ꓤ",
+        "Я"
+      ],
+      "bottomRow": [
+        "Я",
         "R",
-        "R"
+        "Я"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 525,
+      "type": "matching",
+      "topRow": [
+        "ꟻ",
+        "ꟻ",
+        "F"
       ],
       "bottomRow": [
         "F",
-        "R",
-        "R"
+        "ꟻ",
+        "F"
       ],
       "options": [
         "0",
@@ -4639,14 +4639,14 @@ export const QUESTIONS = {
       "id": 526,
       "type": "matching",
       "topRow": [
-        "Ⅎ",
-        "R",
+        "Я",
+        "ꓤ",
         "R"
       ],
       "bottomRow": [
-        "F",
-        "R",
-        "ꟻ"
+        "Я",
+        "ꓤ",
+        "R"
       ],
       "options": [
         "0",
@@ -4654,20 +4654,20 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": 527,
       "type": "matching",
       "topRow": [
         "ꓤ",
-        "R",
-        "Ⅎ"
+        "Я",
+        "ꓤ"
       ],
       "bottomRow": [
         "ꓤ",
-        "R",
-        "Ⅎ"
+        "Я",
+        "ꓤ"
       ],
       "options": [
         "0",
@@ -4683,12 +4683,12 @@ export const QUESTIONS = {
       "topRow": [
         "R",
         "R",
-        "R"
+        "ꓤ"
       ],
       "bottomRow": [
         "R",
         "R",
-        "R"
+        "ꓤ"
       ],
       "options": [
         "0",
@@ -4702,14 +4702,14 @@ export const QUESTIONS = {
       "id": 529,
       "type": "matching",
       "topRow": [
-        "R",
         "Ⅎ",
-        "Ⅎ"
+        "Ⅎ",
+        "ꟻ"
       ],
       "bottomRow": [
-        "ꓤ",
-        "ꟻ",
-        "Ⅎ"
+        "Ⅎ",
+        "Ⅎ",
+        "ꟻ"
       ],
       "options": [
         "0",
@@ -4717,20 +4717,20 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": 530,
       "type": "matching",
       "topRow": [
         "R",
-        "ꟻ",
-        "ꓤ"
+        "ꓤ",
+        "Я"
       ],
       "bottomRow": [
-        "R",
-        "ꟻ",
-        "R"
+        "Я",
+        "ꓤ",
+        "Я"
       ],
       "options": [
         "0",
@@ -4745,12 +4745,12 @@ export const QUESTIONS = {
       "type": "matching",
       "topRow": [
         "R",
-        "Ⅎ",
+        "R",
         "Я"
       ],
       "bottomRow": [
-        "Я",
-        "Ⅎ",
+        "R",
+        "R",
         "Я"
       ],
       "options": [
@@ -4759,20 +4759,20 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": 532,
       "type": "matching",
       "topRow": [
         "ꓤ",
-        "Ⅎ",
-        "R"
+        "ꓤ",
+        "ꓤ"
       ],
       "bottomRow": [
+        "Я",
         "ꓤ",
-        "ꓤ",
-        "R"
+        "ꓤ"
       ],
       "options": [
         "0",
@@ -4787,13 +4787,13 @@ export const QUESTIONS = {
       "type": "matching",
       "topRow": [
         "Ⅎ",
-        "F",
-        "Я"
+        "Ⅎ",
+        "Ⅎ"
       ],
       "bottomRow": [
-        "Ⅎ",
         "F",
-        "R"
+        "Ⅎ",
+        "Ⅎ"
       ],
       "options": [
         "0",
@@ -4807,14 +4807,119 @@ export const QUESTIONS = {
       "id": 534,
       "type": "matching",
       "topRow": [
-        "ꓤ",
+        "ꟻ",
+        "Ⅎ",
+        "F"
+      ],
+      "bottomRow": [
+        "ꟻ",
+        "Ⅎ",
+        "F"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 535,
+      "type": "matching",
+      "topRow": [
+        "Я",
         "R",
         "R"
       ],
       "bottomRow": [
         "Я",
+        "Я",
+        "Я"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 536,
+      "type": "matching",
+      "topRow": [
+        "Ⅎ",
         "ꟻ",
-        "F"
+        "Ⅎ"
+      ],
+      "bottomRow": [
+        "ꟻ",
+        "ꟻ",
+        "ꟻ"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 537,
+      "type": "matching",
+      "topRow": [
+        "ꟻ",
+        "ꟻ",
+        "Ⅎ"
+      ],
+      "bottomRow": [
+        "ꟻ",
+        "ꟻ",
+        "ꟻ"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 538,
+      "type": "matching",
+      "topRow": [
+        "ꟻ",
+        "Ⅎ",
+        "Ⅎ"
+      ],
+      "bottomRow": [
+        "ꟻ",
+        "ꟻ",
+        "Ⅎ"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 539,
+      "type": "matching",
+      "topRow": [
+        "R",
+        "Я",
+        "Я"
+      ],
+      "bottomRow": [
+        "Я",
+        "ꓤ",
+        "ꓤ"
       ],
       "options": [
         "0",
@@ -4825,58 +4930,16 @@ export const QUESTIONS = {
       "answer": 0
     },
     {
-      "id": 535,
+      "id": 540,
       "type": "matching",
       "topRow": [
+        "Я",
         "R",
-        "F",
         "R"
-      ],
-      "bottomRow": [
-        "R",
-        "F",
-        "ꓤ"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 536,
-      "type": "matching",
-      "topRow": [
-        "F",
-        "ꟻ",
-        "ꓤ"
       ],
       "bottomRow": [
         "Я",
-        "ꟻ",
-        "ꓤ"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 537,
-      "type": "matching",
-      "topRow": [
-        "ꟻ",
-        "Ⅎ",
-        "R"
-      ],
-      "bottomRow": [
-        "ꟻ",
-        "Ⅎ",
+        "R",
         "R"
       ],
       "options": [
@@ -4888,80 +4951,17 @@ export const QUESTIONS = {
       "answer": 3
     },
     {
-      "id": 538,
-      "type": "matching",
-      "topRow": [
-        "ꟻ",
-        "ꓤ",
-        "R"
-      ],
-      "bottomRow": [
-        "Ⅎ",
-        "R",
-        "R"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 539,
-      "type": "matching",
-      "topRow": [
-        "ꟻ",
-        "R",
-        "Ⅎ"
-      ],
-      "bottomRow": [
-        "ꟻ",
-        "R",
-        "R"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 540,
-      "type": "matching",
-      "topRow": [
-        "ꓤ",
-        "ꟻ",
-        "R"
-      ],
-      "bottomRow": [
-        "ꟻ",
-        "ꟻ",
-        "R"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 2
-    },
-    {
       "id": 541,
       "type": "matching",
       "topRow": [
         "Я",
-        "F",
-        "ꓤ"
+        "R",
+        "Я"
       ],
       "bottomRow": [
         "Я",
-        "F",
-        "ꟻ"
+        "Я",
+        "Я"
       ],
       "options": [
         "0",
@@ -4975,13 +4975,13 @@ export const QUESTIONS = {
       "id": 542,
       "type": "matching",
       "topRow": [
-        "ꓤ",
-        "ꓤ",
-        "F"
+        "Я",
+        "Я",
+        "ꓤ"
       ],
       "bottomRow": [
-        "ꓤ",
-        "ꓤ",
+        "Я",
+        "Я",
         "ꓤ"
       ],
       "options": [
@@ -4990,20 +4990,20 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": 543,
       "type": "matching",
       "topRow": [
-        "F",
-        "F",
-        "ꟻ"
+        "ꓤ",
+        "R",
+        "R"
       ],
       "bottomRow": [
         "ꓤ",
-        "F",
-        "ꟻ"
+        "R",
+        "Я"
       ],
       "options": [
         "0",
@@ -5017,14 +5017,14 @@ export const QUESTIONS = {
       "id": 544,
       "type": "matching",
       "topRow": [
-        "R",
-        "F",
-        "ꟻ"
+        "ꓤ",
+        "ꓤ",
+        "Я"
       ],
       "bottomRow": [
-        "R",
-        "ꟻ",
-        "ꓤ"
+        "ꓤ",
+        "ꓤ",
+        "Я"
       ],
       "options": [
         "0",
@@ -5032,41 +5032,20 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": 545,
       "type": "matching",
       "topRow": [
-        "Я",
-        "F",
+        "ꟻ",
+        "ꟻ",
         "Ⅎ"
       ],
       "bottomRow": [
-        "Я",
-        "F",
-        "ꓤ"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 2
-    },
-    {
-      "id": 546,
-      "type": "matching",
-      "topRow": [
-        "Я",
-        "Я",
+        "Ⅎ",
+        "Ⅎ",
         "Ⅎ"
-      ],
-      "bottomRow": [
-        "F",
-        "Я",
-        "ꓤ"
       ],
       "options": [
         "0",
@@ -5077,17 +5056,38 @@ export const QUESTIONS = {
       "answer": 1
     },
     {
+      "id": 546,
+      "type": "matching",
+      "topRow": [
+        "ꓤ",
+        "ꓤ",
+        "ꓤ"
+      ],
+      "bottomRow": [
+        "ꓤ",
+        "ꓤ",
+        "ꓤ"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3
+    },
+    {
       "id": 547,
       "type": "matching",
       "topRow": [
-        "Ⅎ",
-        "ꓤ",
-        "ꟻ"
+        "R",
+        "Я",
+        "R"
       ],
       "bottomRow": [
-        "Ⅎ",
-        "Ⅎ",
-        "ꟻ"
+        "R",
+        "ꓤ",
+        "R"
       ],
       "options": [
         "0",
@@ -5102,13 +5102,13 @@ export const QUESTIONS = {
       "type": "matching",
       "topRow": [
         "Я",
-        "Ⅎ",
-        "ꟻ"
+        "ꓤ",
+        "R"
       ],
       "bottomRow": [
-        "ꟻ",
-        "Ⅎ",
-        "F"
+        "ꓤ",
+        "ꓤ",
+        "Я"
       ],
       "options": [
         "0",
@@ -5122,14 +5122,14 @@ export const QUESTIONS = {
       "id": 549,
       "type": "matching",
       "topRow": [
-        "ꓤ",
-        "ꓤ",
-        "R"
+        "R",
+        "Я",
+        "Я"
       ],
       "bottomRow": [
-        "ꓤ",
         "R",
-        "R"
+        "Я",
+        "ꓤ"
       ],
       "options": [
         "0",
@@ -5143,35 +5143,14 @@ export const QUESTIONS = {
       "id": 550,
       "type": "matching",
       "topRow": [
-        "Ⅎ",
-        "R",
-        "ꓤ"
-      ],
-      "bottomRow": [
-        "R",
-        "Ⅎ",
-        "ꓤ"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 551,
-      "type": "matching",
-      "topRow": [
-        "ꓤ",
-        "F",
-        "F"
-      ],
-      "bottomRow": [
-        "ꓤ",
         "Я",
-        "F"
+        "R",
+        "ꓤ"
+      ],
+      "bottomRow": [
+        "R",
+        "R",
+        "ꓤ"
       ],
       "options": [
         "0",
@@ -5182,17 +5161,38 @@ export const QUESTIONS = {
       "answer": 2
     },
     {
-      "id": 552,
+      "id": 551,
       "type": "matching",
       "topRow": [
-        "Я",
-        "ꟻ",
+        "Ⅎ",
+        "Ⅎ",
         "Ⅎ"
       ],
       "bottomRow": [
-        "Я",
-        "ꟻ",
+        "Ⅎ",
+        "Ⅎ",
         "Ⅎ"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 552,
+      "type": "matching",
+      "topRow": [
+        "F",
+        "ꟻ",
+        "F"
+      ],
+      "bottomRow": [
+        "F",
+        "ꟻ",
+        "F"
       ],
       "options": [
         "0",
@@ -5206,35 +5206,14 @@ export const QUESTIONS = {
       "id": 553,
       "type": "matching",
       "topRow": [
+        "Я",
         "ꓤ",
-        "Ⅎ",
         "Я"
       ],
       "bottomRow": [
         "ꓤ",
-        "Ⅎ",
-        "Я"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 554,
-      "type": "matching",
-      "topRow": [
-        "Я",
-        "Ⅎ",
+        "R",
         "ꓤ"
-      ],
-      "bottomRow": [
-        "F",
-        "Я",
-        "ꟻ"
       ],
       "options": [
         "0",
@@ -5245,16 +5224,58 @@ export const QUESTIONS = {
       "answer": 0
     },
     {
+      "id": 554,
+      "type": "matching",
+      "topRow": [
+        "F",
+        "F",
+        "Ⅎ"
+      ],
+      "bottomRow": [
+        "F",
+        "ꟻ",
+        "F"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1
+    },
+    {
       "id": 555,
       "type": "matching",
       "topRow": [
-        "ꓤ",
-        "ꟻ",
+        "Я",
+        "Я",
         "R"
       ],
       "bottomRow": [
-        "Ⅎ",
-        "ꟻ",
+        "Я",
+        "Я",
+        "R"
+      ],
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 556,
+      "type": "matching",
+      "topRow": [
+        "ꓤ",
+        "ꓤ",
+        "R"
+      ],
+      "bottomRow": [
+        "ꓤ",
+        "Я",
         "ꓤ"
       ],
       "options": [
@@ -5266,17 +5287,17 @@ export const QUESTIONS = {
       "answer": 1
     },
     {
-      "id": 556,
+      "id": 557,
       "type": "matching",
       "topRow": [
-        "ꟻ",
-        "ꟻ",
+        "Ⅎ",
+        "Ⅎ",
         "Ⅎ"
       ],
       "bottomRow": [
-        "ꟻ",
-        "F",
-        "Ⅎ"
+        "Ⅎ",
+        "Ⅎ",
+        "ꟻ"
       ],
       "options": [
         "0",
@@ -5287,37 +5308,16 @@ export const QUESTIONS = {
       "answer": 2
     },
     {
-      "id": 557,
-      "type": "matching",
-      "topRow": [
-        "ꓤ",
-        "ꟻ",
-        "ꟻ"
-      ],
-      "bottomRow": [
-        "ꓤ",
-        "Ⅎ",
-        "Ⅎ"
-      ],
-      "options": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 1
-    },
-    {
       "id": 558,
       "type": "matching",
       "topRow": [
-        "ꓤ",
-        "Я",
+        "Ⅎ",
+        "F",
         "ꟻ"
       ],
       "bottomRow": [
-        "R",
-        "Я",
+        "Ⅎ",
+        "Ⅎ",
         "ꟻ"
       ],
       "options": [
@@ -5332,14 +5332,14 @@ export const QUESTIONS = {
       "id": 559,
       "type": "matching",
       "topRow": [
-        "ꓤ",
         "R",
-        "Ⅎ"
+        "R",
+        "ꓤ"
       ],
       "bottomRow": [
         "R",
-        "Я",
-        "Я"
+        "R",
+        "R"
       ],
       "options": [
         "0",
@@ -5347,20 +5347,20 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "id": 560,
       "type": "matching",
       "topRow": [
-        "ꓤ",
-        "Я",
-        "Ⅎ"
+        "F",
+        "ꟻ",
+        "ꟻ"
       ],
       "bottomRow": [
-        "R",
         "F",
-        "Я"
+        "ꟻ",
+        "Ⅎ"
       ],
       "options": [
         "0",
@@ -5368,489 +5368,489 @@ export const QUESTIONS = {
         "2",
         "3"
       ],
-      "answer": 0
+      "answer": 2
     }
   ],
   "6": [
     {
       "id": 601,
       "type": "text",
-      "question": "55 / 5 = ...",
+      "question": "35 / 7 = ...",
       "options": [
-        "16",
-        "21",
-        "11",
-        "8"
+        "5",
+        "1",
+        "9",
+        "15"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 602,
       "type": "text",
-      "question": "9 x 9 = ...",
+      "question": "3 x 7 = ...",
       "options": [
-        "85",
-        "91",
-        "78",
-        "81"
+        "21",
+        "26",
+        "31",
+        "19"
       ],
-      "answer": 3
+      "answer": 0
     },
     {
       "id": 603,
       "type": "text",
-      "question": "23 - 4/4 = ...",
+      "question": "22 + 84 = ...",
       "options": [
-        "22",
-        "18",
-        "28",
-        "17"
+        "105",
+        "106",
+        "108",
+        "116"
       ],
       "answer": 1
     },
     {
       "id": 604,
       "type": "text",
-      "question": "50 / 5 = ...",
+      "question": "32 + 47 = ...",
       "options": [
-        "10",
-        "14",
-        "20",
-        "5"
+        "82",
+        "79",
+        "89",
+        "74"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "id": 605,
       "type": "text",
-      "question": "33 + 79 = ...",
+      "question": "84 / 12 = ...",
       "options": [
-        "122",
-        "110",
-        "112",
-        "114"
+        "7",
+        "6",
+        "17",
+        "12"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 606,
       "type": "text",
-      "question": "26 - 10/8 = ...",
+      "question": "29 - 3/4 = ...",
       "options": [
-        "11",
-        "12",
-        "8",
-        "21"
+        "82",
+        "77",
+        "92",
+        "86"
       ],
       "answer": 0
     },
     {
       "id": 607,
       "type": "text",
-      "question": "12 x 7 = ...",
+      "question": "2 x 10 = ...",
       "options": [
-        "88",
-        "84",
-        "83",
-        "94"
+        "18",
+        "20",
+        "22",
+        "30"
       ],
       "answer": 1
     },
     {
       "id": 608,
       "type": "text",
-      "question": "24 - 27/7 = ...",
+      "question": "6 x 3 = ...",
       "options": [
-        "66",
-        "67",
-        "69",
-        "77"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 609,
-      "type": "text",
-      "question": "59 + 42 = ...",
-      "options": [
-        "111",
-        "101",
-        "96",
-        "103"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 610,
-      "type": "text",
-      "question": "89 + 79 = ...",
-      "options": [
-        "168",
-        "178",
-        "171",
-        "167"
+        "18",
+        "19",
+        "28",
+        "17"
       ],
       "answer": 0
     },
     {
-      "id": 611,
+      "id": 609,
       "type": "text",
-      "question": "2 x 7 = ...",
+      "question": "13 - 21/5 = ...",
       "options": [
-        "24",
-        "14",
-        "13",
-        "15"
+        "20",
+        "18",
+        "30",
+        "22"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 610,
+      "type": "text",
+      "question": "10 / 2 = ...",
+      "options": [
+        "15",
+        "5",
+        "3",
+        "8"
       ],
       "answer": 1
+    },
+    {
+      "id": 611,
+      "type": "text",
+      "question": "89 + 66 = ...",
+      "options": [
+        "152",
+        "159",
+        "155",
+        "165"
+      ],
+      "answer": 2
     },
     {
       "id": 612,
       "type": "text",
-      "question": "15 - 6/3 = ...",
+      "question": "9 x 11 = ...",
       "options": [
-        "43",
-        "42",
-        "52",
-        "41"
+        "102",
+        "109",
+        "99",
+        "94"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 613,
       "type": "text",
-      "question": "44 / 4 = ...",
+      "question": "15 - 17/4 = ...",
       "options": [
-        "21",
+        "8",
         "12",
-        "11",
-        "7"
+        "10",
+        "20"
       ],
       "answer": 2
     },
     {
       "id": 614,
       "type": "text",
-      "question": "47 + 80 = ...",
+      "question": "16 - 18/4 = ...",
       "options": [
-        "137",
-        "122",
-        "127",
-        "128"
+        "77",
+        "87",
+        "79",
+        "72"
       ],
-      "answer": 2
+      "answer": 0
     },
     {
       "id": 615,
       "type": "text",
-      "question": "10 x 4 = ...",
+      "question": "9 x 5 = ...",
       "options": [
-        "40",
-        "50",
-        "37",
-        "45"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 616,
-      "type": "text",
-      "question": "11 x 9 = ...",
-      "options": [
-        "99",
-        "109",
-        "100",
-        "97"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 617,
-      "type": "text",
-      "question": "29 + 25 = ...",
-      "options": [
-        "54",
-        "59",
-        "53",
-        "64"
-      ],
-      "answer": 0
-    },
-    {
-      "id": 618,
-      "type": "text",
-      "question": "12 / 4 = ...",
-      "options": [
-        "13",
-        "3",
-        "1",
-        "6"
+        "55",
+        "45",
+        "43",
+        "46"
       ],
       "answer": 1
     },
     {
+      "id": 616,
+      "type": "text",
+      "question": "14 - 6/4 = ...",
+      "options": [
+        "0",
+        "6",
+        "5",
+        "15"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 617,
+      "type": "text",
+      "question": "35 + 43 = ...",
+      "options": [
+        "80",
+        "78",
+        "88",
+        "74"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 618,
+      "type": "text",
+      "question": "9 x 3 = ...",
+      "options": [
+        "27",
+        "29",
+        "25",
+        "37"
+      ],
+      "answer": 0
+    },
+    {
       "id": 619,
       "type": "text",
-      "question": "53 + 67 = ...",
+      "question": "6 x 9 = ...",
       "options": [
-        "130",
-        "119",
-        "121",
-        "120"
+        "57",
+        "64",
+        "50",
+        "54"
       ],
       "answer": 3
     },
     {
       "id": 620,
       "type": "text",
-      "question": "40 / 8 = ...",
+      "question": "22 - 19/7 = ...",
       "options": [
-        "15",
-        "5",
-        "4",
-        "8"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 621,
-      "type": "text",
-      "question": "5 x 11 = ...",
-      "options": [
-        "53",
-        "55",
-        "58",
-        "65"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 622,
-      "type": "text",
-      "question": "17 - 6/3 = ...",
-      "options": [
-        "86",
-        "81",
-        "74",
-        "76"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 623,
-      "type": "text",
-      "question": "27 + 100 = ...",
-      "options": [
-        "137",
-        "124",
-        "131",
-        "127"
-      ],
-      "answer": 3
-    },
-    {
-      "id": 624,
-      "type": "text",
-      "question": "150 - 15 = ...",
-      "options": [
-        "134",
-        "135",
-        "145",
-        "139"
-      ],
-      "answer": 1
-    },
-    {
-      "id": 625,
-      "type": "text",
-      "question": "62 - 21 = ...",
-      "options": [
-        "41",
-        "40",
-        "51",
-        "42"
+        "29",
+        "28",
+        "39",
+        "30"
       ],
       "answer": 0
     },
     {
-      "id": 626,
+      "id": 621,
       "type": "text",
-      "question": "70 / 7 = ...",
+      "question": "16 - 3/7 = ...",
       "options": [
-        "11",
-        "20",
-        "10",
-        "5"
+        "5",
+        "15",
+        "2",
+        "7"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 622,
+      "type": "text",
+      "question": "102 - 43 = ...",
+      "options": [
+        "61",
+        "59",
+        "69",
+        "54"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 623,
+      "type": "text",
+      "question": "26 - 36/9 = ...",
+      "options": [
+        "61",
+        "57",
+        "52",
+        "67"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 624,
+      "type": "text",
+      "question": "56 + 25 = ...",
+      "options": [
+        "82",
+        "91",
+        "81",
+        "76"
       ],
       "answer": 2
     },
     {
+      "id": 625,
+      "type": "text",
+      "question": "98 + 26 = ...",
+      "options": [
+        "134",
+        "122",
+        "128",
+        "124"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 626,
+      "type": "text",
+      "question": "22 - 37/8 = ...",
+      "options": [
+        "119",
+        "120",
+        "130",
+        "122"
+      ],
+      "answer": 1
+    },
+    {
       "id": 627,
       "type": "text",
-      "question": "77 + 88 = ...",
+      "question": "29 + 53 = ...",
       "options": [
-        "175",
-        "164",
-        "168",
-        "165"
+        "92",
+        "86",
+        "77",
+        "82"
       ],
       "answer": 3
     },
     {
       "id": 628,
       "type": "text",
-      "question": "21 / 7 = ...",
+      "question": "4 x 11 = ...",
       "options": [
-        "13",
-        "7",
-        "3",
-        "1"
+        "49",
+        "39",
+        "44",
+        "54"
       ],
       "answer": 2
     },
     {
       "id": 629,
       "type": "text",
-      "question": "17 - 27/7 = ...",
+      "question": "21 - 19/7 = ...",
       "options": [
-        "89",
-        "96",
-        "93",
-        "103"
+        "27",
+        "12",
+        "18",
+        "17"
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "id": 630,
       "type": "text",
-      "question": "136 - 42 = ...",
+      "question": "12 - 10/2 = ...",
       "options": [
-        "104",
-        "95",
-        "90",
-        "94"
+        "102",
+        "96",
+        "110",
+        "100"
       ],
       "answer": 3
     },
     {
       "id": 631,
       "type": "text",
-      "question": "10 x 4 = ...",
+      "question": "120 / 12 = ...",
       "options": [
-        "41",
-        "39",
-        "50",
-        "40"
+        "6",
+        "11",
+        "10",
+        "20"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": 632,
       "type": "text",
-      "question": "14 / 2 = ...",
+      "question": "18 - 3/3 = ...",
       "options": [
-        "9",
-        "3",
-        "17",
-        "7"
+        "129",
+        "134",
+        "119",
+        "124"
       ],
       "answer": 3
     },
     {
       "id": 633,
       "type": "text",
-      "question": "2 x 8 = ...",
+      "question": "120 - 15 = ...",
       "options": [
-        "14",
-        "17",
-        "16",
-        "26"
+        "110",
+        "105",
+        "104",
+        "115"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "id": 634,
       "type": "text",
-      "question": "21 - 33/9 = ...",
+      "question": "39 + 62 = ...",
       "options": [
-        "57",
-        "52",
-        "62",
-        "48"
+        "100",
+        "101",
+        "104",
+        "111"
       ],
       "answer": 1
     },
     {
       "id": 635,
       "type": "text",
-      "question": "34 + 90 = ...",
+      "question": "87 - 19 = ...",
       "options": [
-        "134",
-        "127",
-        "124",
-        "122"
+        "71",
+        "63",
+        "68",
+        "78"
       ],
       "answer": 2
     },
     {
       "id": 636,
       "type": "text",
-      "question": "84 + 15 = ...",
+      "question": "15 / 3 = ...",
       "options": [
-        "109",
-        "99",
-        "97",
-        "103"
+        "0",
+        "8",
+        "15",
+        "5"
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "id": 637,
       "type": "text",
-      "question": "109 - 40 = ...",
+      "question": "19 - 3/2 = ...",
       "options": [
-        "74",
-        "69",
-        "64",
-        "79"
+        "104",
+        "98",
+        "102",
+        "112"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 638,
       "type": "text",
-      "question": "69 + 12 = ...",
+      "question": "28 - 6/3 = ...",
       "options": [
-        "91",
-        "86",
-        "76",
-        "81"
+        "1",
+        "16",
+        "6",
+        "7"
       ],
-      "answer": 3
+      "answer": 2
     },
     {
       "id": 639,
       "type": "text",
-      "question": "13 - 23/8 = ...",
+      "question": "40 / 5 = ...",
       "options": [
-        "71",
-        "60",
-        "63",
-        "61"
+        "13",
+        "8",
+        "6",
+        "18"
       ],
-      "answer": 3
+      "answer": 1
     },
     {
       "id": 640,
       "type": "text",
-      "question": "2 x 8 = ...",
+      "question": "32 / 8 = ...",
       "options": [
-        "18",
-        "12",
-        "26",
-        "16"
+        "-1",
+        "6",
+        "4",
+        "14"
       ],
-      "answer": 3
+      "answer": 2
     }
   ]
 }
