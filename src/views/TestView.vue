@@ -200,7 +200,7 @@ const formatTime = (seconds) => {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: #f1f5f9;
+  background: var(--border);
   padding: 0.5rem 1rem;
   border-radius: 99px;
   font-weight: 700;
@@ -222,7 +222,7 @@ const formatTime = (seconds) => {
 
 .progress-container {
   margin-bottom: 2rem;
-  background: #f1f5f9;
+  background: var(--border);
   border-radius: 99px;
   height: 0.5rem;
   position: relative;
